@@ -33,18 +33,19 @@ Get minor updates and patch fixes within a major version:
 
 | Utilities                         | Version       |
 | --------------------------------- | -------------:|
-| animate.css                       | 4.1.0         |
-| tailwindcss                       | 1.4.4         |
 | moment                            | 2.26.0        |
 | javascript-detect-element-resize  | 2.26.0        |
-| popper                            | 1.16.1        |
 | bootstrap                         | 5.0.0         |
 <br />
 
 | Native JS                         | Version       |
 | --------------------------------- | -------------:|
+| choices.js                        | 9.0.1         |
 | fullcalendar                      | 4.4.0         |
 | imask                             | 6.0.3         |
+| ispin                             | 2.0.1         |
+| list.js                           | 1.5.0         |
+| materializecss                    | 1.0.0         |
 | mprogress                         | 0.1.1         |
 | node-waves                        | 0.7.6         |
 | noUiSlider                        | 6.1.0         |
@@ -57,8 +58,5 @@ Get minor updates and patch fixes within a major version:
 | jquery                            | 3.5.1         |
 | jquery-ui                         | 1.12.1        |
 | datatables                        | 1.10.19       |
-| input-spinner                     | 1.0.0         |
-| materializecss                    | 1.0.0         |
-| raty                              | 2.8.0         |
 | select2                           | 4.0.13        |
 <br />
