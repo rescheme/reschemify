@@ -27629,13 +27629,13 @@ a.text-yahoo:focus, a.text-yahoo:hover {
 }
 
 /* line 42, src/styles/plus/01-base/_typography.scss */
-.font-stack-bangers {
-  font-family: "Bangers", cursive;
+.font-stack-cookie {
+  font-family: "Cookie", cursive;
 }
 
 /* line 46, src/styles/plus/01-base/_typography.scss */
-.font-stack-cookie {
-  font-family: "Cookie", cursive;
+.font-stack-dm-sans {
+  font-family: "DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 50, src/styles/plus/01-base/_typography.scss */
