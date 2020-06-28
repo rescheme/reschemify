@@ -4,7 +4,7 @@
  * Package Name - reschemify
  * Version - 0.1.1
  *
- * Copyright (c) Rescheme 2020-06-27
+ * Copyright (c) Rescheme 2020-06-28
  */
 
 /*!
@@ -43492,6 +43492,9 @@ a.text-yahoo:focus, a.text-yahoo:hover {
   min-width: 100% !important;
 }
 
+/**
+ * Typography
+ */
 /* line 5, src/styles/plus/01-base/_typography.scss */
 .text-base {
   font-family: "Rescheme Sans", "Manrope", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -43504,7 +43507,7 @@ a.text-yahoo:focus, a.text-yahoo:hover {
 
 /* line 13, src/styles/plus/01-base/_typography.scss */
 .text-comics {
-  font-family: "Bangers", sans-serif;
+  font-family: "Bangers", cursive;
 }
 
 /* line 17, src/styles/plus/01-base/_typography.scss */
@@ -43519,6 +43522,64 @@ a.text-yahoo:focus, a.text-yahoo:hover {
 
 /* line 25, src/styles/plus/01-base/_typography.scss */
 .text-slab {
+  font-family: "Roboto Slab", Lucida, Georgia, serif;
+}
+
+/**
+ * Font Stacks
+ */
+/* line 34, src/styles/plus/01-base/_typography.scss */
+.font-stack-rescheme {
+  font-family: "Rescheme Sans", "Manrope", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 38, src/styles/plus/01-base/_typography.scss */
+.font-stack-bangers {
+  font-family: "Bangers", cursive;
+}
+
+/* line 42, src/styles/plus/01-base/_typography.scss */
+.font-stack-bangers {
+  font-family: "Bangers", cursive;
+}
+
+/* line 46, src/styles/plus/01-base/_typography.scss */
+.font-stack-cookie {
+  font-family: "Cookie", cursive;
+}
+
+/* line 50, src/styles/plus/01-base/_typography.scss */
+.font-stack-inter {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 54, src/styles/plus/01-base/_typography.scss */
+.font-stack-manrope {
+  font-family: "Manrope", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 58, src/styles/plus/01-base/_typography.scss */
+.font-stack-metropolis {
+  font-family: "Metropolis", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 62, src/styles/plus/01-base/_typography.scss */
+.font-stack-mplus-rounded-1c {
+  font-family: "M PLUS Rounded 1c", Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+/* line 66, src/styles/plus/01-base/_typography.scss */
+.font-stack-roboto {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 70, src/styles/plus/01-base/_typography.scss */
+.font-stack-roboto-mono {
+  font-family: "Roboto Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* line 74, src/styles/plus/01-base/_typography.scss */
+.font-stack-roboto-slab {
   font-family: "Roboto Slab", Lucida, Georgia, serif;
 }
 
