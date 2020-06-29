@@ -2,9 +2,9 @@
  * @license
  * Reschemify
  * Package Name - reschemify
- * Version - 0.1.3
+ * Version - 0.1.4
  *
- * Copyright (c) Rescheme 2020-06-28
+ * Copyright (c) Rescheme 2020-06-30
  */
 
 ;(function (global, factory) {

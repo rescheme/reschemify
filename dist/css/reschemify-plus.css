@@ -27586,32 +27586,32 @@ a.text-yahoo:focus, a.text-yahoo:hover {
  * Typography
  */
 /* line 5, src/styles/plus/01-base/_typography.scss */
-.text-base {
+.font-base {
   font-family: "Rescheme Sans", "Manrope", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 9, src/styles/plus/01-base/_typography.scss */
-.text-cursive {
+.font-cursive {
   font-family: "Cookie", cursive;
 }
 
 /* line 13, src/styles/plus/01-base/_typography.scss */
-.text-comics {
+.font-comics {
   font-family: "Bangers", cursive;
 }
 
 /* line 17, src/styles/plus/01-base/_typography.scss */
-.text-mono {
+.font-mono {
   font-family: "Roboto Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 /* line 21, src/styles/plus/01-base/_typography.scss */
-.text-rounded {
+.font-rounded {
   font-family: "M PLUS Rounded 1c", Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 /* line 25, src/styles/plus/01-base/_typography.scss */
-.text-slab {
+.font-slab {
   font-family: "Roboto Slab", Lucida, Georgia, serif;
 }
 
