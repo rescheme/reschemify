@@ -2,7 +2,7 @@
  * @license
  * Reschemify
  * Package Name - reschemify
- * Version - 0.1.5
+ * Version - 0.1.6
  *
  * Copyright (c) Rescheme 2020-06-30
  */
@@ -16148,19 +16148,12 @@ fieldset[disabled] .color-red.btn.btn-outline.focus {
   background-color: #F44336;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-red.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-red.pagination > .active > a {
   background-color: #F44336;
   border-color: #ea1c0d;
@@ -16174,48 +16167,48 @@ fieldset[disabled] .color-red.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-red.pagination > .active > span {
   background-color: #F44336;
   border-color: #ea1c0d;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-red.pagination > .active > span:focus {
   background-color: #F44336;
   border-color: #ea1c0d;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-red.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-red.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-red.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-red.switch + .switch-lever:before {
+  background-color: rgba(244, 67, 54, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-red.switch:checked + .switch-lever {
   background-color: #f0bdb9;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-red.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-red.switch:checked + .switch-lever:after {
   background-color: #F44336;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-red.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-red.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-red.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(244, 67, 54, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-red.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-red.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(244, 67, 54, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-red.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-red.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -16426,19 +16419,12 @@ fieldset[disabled] .color-pink.btn.btn-outline.focus {
   background-color: #E91E63;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-pink.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-pink.pagination > .active > a {
   background-color: #E91E63;
   border-color: #c1134e;
@@ -16452,48 +16438,48 @@ fieldset[disabled] .color-pink.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-pink.pagination > .active > span {
   background-color: #E91E63;
   border-color: #c1134e;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-pink.pagination > .active > span:focus {
   background-color: #E91E63;
   border-color: #c1134e;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-pink.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pink.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-pink.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pink.switch + .switch-lever:before {
+  background-color: rgba(233, 30, 99, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pink.switch:checked + .switch-lever {
   background-color: #e5a1b8;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-pink.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pink.switch:checked + .switch-lever:after {
   background-color: #E91E63;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-pink.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pink.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-pink.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(233, 30, 99, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-pink.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-pink.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(233, 30, 99, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-pink.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pink.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -16704,19 +16690,12 @@ fieldset[disabled] .color-purple.btn.btn-outline.focus {
   background-color: #9C27B0;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-purple.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-purple.pagination > .active > a {
   background-color: #9C27B0;
   border-color: #771e86;
@@ -16730,48 +16709,48 @@ fieldset[disabled] .color-purple.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-purple.pagination > .active > span {
   background-color: #9C27B0;
   border-color: #771e86;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-purple.pagination > .active > span:focus {
   background-color: #9C27B0;
   border-color: #771e86;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-purple.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-purple.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-purple.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-purple.switch + .switch-lever:before {
+  background-color: rgba(156, 39, 176, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-purple.switch:checked + .switch-lever {
   background-color: #c28bcc;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-purple.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-purple.switch:checked + .switch-lever:after {
   background-color: #9C27B0;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-purple.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-purple.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-purple.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(156, 39, 176, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-purple.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-purple.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(156, 39, 176, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-purple.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-purple.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -16982,19 +16961,12 @@ fieldset[disabled] .color-deepPurple.btn.btn-outline.focus {
   background-color: #673AB7;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-deepPurple.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-deepPurple.pagination > .active > a {
   background-color: #673AB7;
   border-color: #512e90;
@@ -17008,48 +16980,48 @@ fieldset[disabled] .color-deepPurple.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-deepPurple.pagination > .active > span {
   background-color: #673AB7;
   border-color: #512e90;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-deepPurple.pagination > .active > span:focus {
   background-color: #673AB7;
   border-color: #512e90;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-deepPurple.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepPurple.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-deepPurple.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepPurple.switch + .switch-lever:before {
+  background-color: rgba(103, 58, 183, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepPurple.switch:checked + .switch-lever {
   background-color: #b3a5cb;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-deepPurple.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepPurple.switch:checked + .switch-lever:after {
   background-color: #673AB7;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-deepPurple.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepPurple.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-deepPurple.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(103, 58, 183, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-deepPurple.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-deepPurple.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(103, 58, 183, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-deepPurple.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepPurple.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -17260,19 +17232,12 @@ fieldset[disabled] .color-indigo.btn.btn-outline.focus {
   background-color: #3F51B5;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-indigo.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-indigo.pagination > .active > a {
   background-color: #3F51B5;
   border-color: #32408f;
@@ -17286,48 +17251,48 @@ fieldset[disabled] .color-indigo.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-indigo.pagination > .active > span {
   background-color: #3F51B5;
   border-color: #32408f;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-indigo.pagination > .active > span:focus {
   background-color: #3F51B5;
   border-color: #32408f;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-indigo.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-indigo.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-indigo.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-indigo.switch + .switch-lever:before {
+  background-color: rgba(63, 81, 181, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-indigo.switch:checked + .switch-lever {
   background-color: #aaafca;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-indigo.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-indigo.switch:checked + .switch-lever:after {
   background-color: #3F51B5;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-indigo.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-indigo.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-indigo.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(63, 81, 181, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-indigo.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-indigo.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(63, 81, 181, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-indigo.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-indigo.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -17538,19 +17503,12 @@ fieldset[disabled] .color-blue.btn.btn-outline.focus {
   background-color: #2196F3;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-blue.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-blue.pagination > .active > a {
   background-color: #2196F3;
   border-color: #0c7cd5;
@@ -17564,48 +17522,48 @@ fieldset[disabled] .color-blue.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-blue.pagination > .active > span {
   background-color: #2196F3;
   border-color: #0c7cd5;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-blue.pagination > .active > span:focus {
   background-color: #2196F3;
   border-color: #0c7cd5;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-blue.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blue.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-blue.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blue.switch + .switch-lever:before {
+  background-color: rgba(33, 150, 243, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blue.switch:checked + .switch-lever {
   background-color: #a7ceec;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-blue.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blue.switch:checked + .switch-lever:after {
   background-color: #2196F3;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-blue.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blue.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-blue.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(33, 150, 243, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-blue.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-blue.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(33, 150, 243, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-blue.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blue.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -17816,19 +17774,12 @@ fieldset[disabled] .color-lightBlue.btn.btn-outline.focus {
   background-color: #03A9F4;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-lightBlue.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-lightBlue.pagination > .active > a {
   background-color: #03A9F4;
   border-color: #0286c2;
@@ -17842,48 +17793,48 @@ fieldset[disabled] .color-lightBlue.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-lightBlue.pagination > .active > span {
   background-color: #03A9F4;
   border-color: #0286c2;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-lightBlue.pagination > .active > span:focus {
   background-color: #03A9F4;
   border-color: #0286c2;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-lightBlue.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightBlue.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-lightBlue.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightBlue.switch + .switch-lever:before {
+  background-color: rgba(3, 169, 244, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightBlue.switch:checked + .switch-lever {
   background-color: #8aceec;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-lightBlue.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightBlue.switch:checked + .switch-lever:after {
   background-color: #03A9F4;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-lightBlue.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightBlue.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-lightBlue.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(3, 169, 244, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-lightBlue.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-lightBlue.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(3, 169, 244, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-lightBlue.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightBlue.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -18094,19 +18045,12 @@ fieldset[disabled] .color-cyan.btn.btn-outline.focus {
   background-color: #00BCD4;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-cyan.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-cyan.pagination > .active > a {
   background-color: #00BCD4;
   border-color: #008fa1;
@@ -18120,48 +18064,48 @@ fieldset[disabled] .color-cyan.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-cyan.pagination > .active > span {
   background-color: #00BCD4;
   border-color: #008fa1;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-cyan.pagination > .active > span:focus {
   background-color: #00BCD4;
   border-color: #008fa1;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-cyan.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-cyan.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-cyan.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-cyan.switch + .switch-lever:before {
+  background-color: rgba(0, 188, 212, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-cyan.switch:checked + .switch-lever {
   background-color: #6adbea;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-cyan.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-cyan.switch:checked + .switch-lever:after {
   background-color: #00BCD4;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-cyan.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-cyan.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-cyan.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(0, 188, 212, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-cyan.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-cyan.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(0, 188, 212, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-cyan.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-cyan.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -18372,19 +18316,12 @@ fieldset[disabled] .color-teal.btn.btn-outline.focus {
   background-color: #009688;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-teal.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-teal.pagination > .active > a {
   background-color: #009688;
   border-color: #00635a;
@@ -18398,48 +18335,48 @@ fieldset[disabled] .color-teal.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-teal.pagination > .active > span {
   background-color: #009688;
   border-color: #00635a;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-teal.pagination > .active > span:focus {
   background-color: #009688;
   border-color: #00635a;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-teal.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-teal.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-teal.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-teal.switch + .switch-lever:before {
+  background-color: rgba(0, 150, 136, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-teal.switch:checked + .switch-lever {
   background-color: #34e2d2;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-teal.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-teal.switch:checked + .switch-lever:after {
   background-color: #009688;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-teal.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-teal.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-teal.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(0, 150, 136, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-teal.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-teal.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(0, 150, 136, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-teal.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-teal.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -18650,19 +18587,12 @@ fieldset[disabled] .color-green.btn.btn-outline.focus {
   background-color: #4CAF50;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-green.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-green.pagination > .active > a {
   background-color: #4CAF50;
   border-color: #3d8b40;
@@ -18676,48 +18606,48 @@ fieldset[disabled] .color-green.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-green.pagination > .active > span {
   background-color: #4CAF50;
   border-color: #3d8b40;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-green.pagination > .active > span:focus {
   background-color: #4CAF50;
   border-color: #3d8b40;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-green.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-green.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-green.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-green.switch + .switch-lever:before {
+  background-color: rgba(76, 175, 80, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-green.switch:checked + .switch-lever {
   background-color: #b4c7b5;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-green.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-green.switch:checked + .switch-lever:after {
   background-color: #4CAF50;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-green.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-green.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-green.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(76, 175, 80, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-green.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-green.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(76, 175, 80, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-green.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-green.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -18928,19 +18858,12 @@ fieldset[disabled] .color-lightGreen.btn.btn-outline.focus {
   background-color: #8BC34A;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-lightGreen.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-lightGreen.pagination > .active > a {
   background-color: #8BC34A;
   border-color: #71a436;
@@ -18954,48 +18877,48 @@ fieldset[disabled] .color-lightGreen.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-lightGreen.pagination > .active > span {
   background-color: #8BC34A;
   border-color: #71a436;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-lightGreen.pagination > .active > span:focus {
   background-color: #8BC34A;
   border-color: #71a436;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-lightGreen.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightGreen.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-lightGreen.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightGreen.switch + .switch-lever:before {
+  background-color: rgba(139, 195, 74, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightGreen.switch:checked + .switch-lever {
   background-color: #c7d5b8;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-lightGreen.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightGreen.switch:checked + .switch-lever:after {
   background-color: #8BC34A;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-lightGreen.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightGreen.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-lightGreen.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(139, 195, 74, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-lightGreen.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-lightGreen.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(139, 195, 74, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-lightGreen.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lightGreen.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -19206,19 +19129,12 @@ fieldset[disabled] .color-lime.btn.btn-outline.focus {
   background-color: #CDDC39;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-lime.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-lime.pagination > .active > a {
   background-color: #CDDC39;
   border-color: #b2c022;
@@ -19232,48 +19148,48 @@ fieldset[disabled] .color-lime.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-lime.pagination > .active > span {
   background-color: #CDDC39;
   border-color: #b2c022;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-lime.pagination > .active > span:focus {
   background-color: #CDDC39;
   border-color: #b2c022;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-lime.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lime.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-lime.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lime.switch + .switch-lever:before {
+  background-color: rgba(205, 220, 57, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lime.switch:checked + .switch-lever {
   background-color: #dee2b3;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-lime.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lime.switch:checked + .switch-lever:after {
   background-color: #CDDC39;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-lime.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lime.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-lime.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(205, 220, 57, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-lime.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-lime.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(205, 220, 57, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-lime.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-lime.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -19484,19 +19400,12 @@ fieldset[disabled] .color-yellow.btn.btn-outline.focus {
   background-color: #FFEB3B;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-yellow.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-yellow.pagination > .active > a {
   background-color: #FFEB3B;
   border-color: #ffe608;
@@ -19510,48 +19419,48 @@ fieldset[disabled] .color-yellow.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-yellow.pagination > .active > span {
   background-color: #FFEB3B;
   border-color: #ffe608;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-yellow.pagination > .active > span:focus {
   background-color: #FFEB3B;
   border-color: #ffe608;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-yellow.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yellow.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-yellow.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yellow.switch + .switch-lever:before {
+  background-color: rgba(255, 235, 59, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yellow.switch:checked + .switch-lever {
   background-color: #f6f1c3;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-yellow.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yellow.switch:checked + .switch-lever:after {
   background-color: #FFEB3B;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-yellow.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yellow.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-yellow.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(255, 235, 59, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-yellow.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-yellow.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(255, 235, 59, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-yellow.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yellow.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -19762,19 +19671,12 @@ fieldset[disabled] .color-amber.btn.btn-outline.focus {
   background-color: #FFC107;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-amber.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-amber.pagination > .active > a {
   background-color: #FFC107;
   border-color: #d39e00;
@@ -19788,48 +19690,48 @@ fieldset[disabled] .color-amber.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-amber.pagination > .active > span {
   background-color: #FFC107;
   border-color: #d39e00;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-amber.pagination > .active > span:focus {
   background-color: #FFC107;
   border-color: #d39e00;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-amber.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-amber.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-amber.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-amber.switch + .switch-lever:before {
+  background-color: rgba(255, 193, 7, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-amber.switch:checked + .switch-lever {
   background-color: #f0d996;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-amber.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-amber.switch:checked + .switch-lever:after {
   background-color: #FFC107;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-amber.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-amber.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-amber.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(255, 193, 7, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-amber.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-amber.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(255, 193, 7, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-amber.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-amber.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -20040,19 +19942,12 @@ fieldset[disabled] .color-orange.btn.btn-outline.focus {
   background-color: #FF9800;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-orange.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-orange.pagination > .active > a {
   background-color: #FF9800;
   border-color: #cc7a00;
@@ -20066,48 +19961,48 @@ fieldset[disabled] .color-orange.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-orange.pagination > .active > span {
   background-color: #FF9800;
   border-color: #cc7a00;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-orange.pagination > .active > span:focus {
   background-color: #FF9800;
   border-color: #cc7a00;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-orange.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-orange.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-orange.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-orange.switch + .switch-lever:before {
+  background-color: rgba(255, 152, 0, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-orange.switch:checked + .switch-lever {
   background-color: #efc88f;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-orange.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-orange.switch:checked + .switch-lever:after {
   background-color: #FF9800;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-orange.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-orange.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-orange.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(255, 152, 0, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-orange.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-orange.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(255, 152, 0, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-orange.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-orange.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -20318,19 +20213,12 @@ fieldset[disabled] .color-deepOrange.btn.btn-outline.focus {
   background-color: #FF5722;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-deepOrange.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-deepOrange.pagination > .active > a {
   background-color: #FF5722;
   border-color: #ee3900;
@@ -20344,48 +20232,48 @@ fieldset[disabled] .color-deepOrange.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-deepOrange.pagination > .active > span {
   background-color: #FF5722;
   border-color: #ee3900;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-deepOrange.pagination > .active > span:focus {
   background-color: #FF5722;
   border-color: #ee3900;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-deepOrange.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepOrange.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-deepOrange.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepOrange.switch + .switch-lever:before {
+  background-color: rgba(255, 87, 34, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepOrange.switch:checked + .switch-lever {
   background-color: #f3bead;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-deepOrange.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepOrange.switch:checked + .switch-lever:after {
   background-color: #FF5722;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-deepOrange.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepOrange.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-deepOrange.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(255, 87, 34, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-deepOrange.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-deepOrange.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(255, 87, 34, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-deepOrange.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-deepOrange.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -20596,19 +20484,12 @@ fieldset[disabled] .color-brown.btn.btn-outline.focus {
   background-color: #795548;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-brown.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-brown.pagination > .active > a {
   background-color: #795548;
   border-color: #593f35;
@@ -20622,48 +20503,48 @@ fieldset[disabled] .color-brown.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-brown.pagination > .active > span {
   background-color: #795548;
   border-color: #593f35;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-brown.pagination > .active > span:focus {
   background-color: #795548;
   border-color: #593f35;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-brown.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-brown.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-brown.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-brown.switch + .switch-lever:before {
+  background-color: rgba(121, 85, 72, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-brown.switch:checked + .switch-lever {
   background-color: #a1a0a0;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-brown.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-brown.switch:checked + .switch-lever:after {
   background-color: #795548;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-brown.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-brown.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-brown.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(121, 85, 72, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-brown.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-brown.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(121, 85, 72, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-brown.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-brown.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -20874,19 +20755,12 @@ fieldset[disabled] .color-blueGray.btn.btn-outline.focus {
   background-color: #607D8B;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-blueGray.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-blueGray.pagination > .active > a {
   background-color: #607D8B;
   border-color: #4b626d;
@@ -20900,48 +20774,48 @@ fieldset[disabled] .color-blueGray.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-blueGray.pagination > .active > span {
   background-color: #607D8B;
   border-color: #4b626d;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-blueGray.pagination > .active > span:focus {
   background-color: #607D8B;
   border-color: #4b626d;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-blueGray.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blueGray.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-blueGray.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blueGray.switch + .switch-lever:before {
+  background-color: rgba(96, 125, 139, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blueGray.switch:checked + .switch-lever {
   background-color: #b5b5b5;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-blueGray.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blueGray.switch:checked + .switch-lever:after {
   background-color: #607D8B;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-blueGray.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blueGray.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-blueGray.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(96, 125, 139, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-blueGray.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-blueGray.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(96, 125, 139, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-blueGray.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-blueGray.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -21152,19 +21026,12 @@ fieldset[disabled] .color-white.btn.btn-outline.focus {
   background-color: #FFFFFF;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-white.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-white.pagination > .active > a {
   background-color: #FFFFFF;
   border-color: #e6e5e5;
@@ -21178,48 +21045,48 @@ fieldset[disabled] .color-white.btn.btn-outline.focus {
   color: #000000;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-white.pagination > .active > span {
   background-color: #FFFFFF;
   border-color: #e6e5e5;
   color: #000000;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-white.pagination > .active > span:focus {
   background-color: #FFFFFF;
   border-color: #e6e5e5;
   color: #000000;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-white.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-white.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-white.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-white.switch + .switch-lever:before {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-white.switch:checked + .switch-lever {
   background-color: white;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-white.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-white.switch:checked + .switch-lever:after {
   background-color: #FFFFFF;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-white.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-white.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-white.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-white.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-white.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-white.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-white.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -21430,19 +21297,12 @@ fieldset[disabled] .color-muted.btn.btn-outline.focus {
   background-color: #607D8B;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-muted.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-muted.pagination > .active > a {
   background-color: #607D8B;
   border-color: #4b626d;
@@ -21456,48 +21316,48 @@ fieldset[disabled] .color-muted.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-muted.pagination > .active > span {
   background-color: #607D8B;
   border-color: #4b626d;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-muted.pagination > .active > span:focus {
   background-color: #607D8B;
   border-color: #4b626d;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-muted.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-muted.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-muted.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-muted.switch + .switch-lever:before {
+  background-color: rgba(96, 125, 139, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-muted.switch:checked + .switch-lever {
   background-color: #b5b5b5;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-muted.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-muted.switch:checked + .switch-lever:after {
   background-color: #607D8B;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-muted.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-muted.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-muted.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(96, 125, 139, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-muted.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-muted.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(96, 125, 139, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-muted.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-muted.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -21708,19 +21568,12 @@ fieldset[disabled] .color-velvet.btn.btn-outline.focus {
   background-color: #AD1457;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-velvet.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-velvet.pagination > .active > a {
   background-color: #AD1457;
   border-color: #7f0f40;
@@ -21734,48 +21587,48 @@ fieldset[disabled] .color-velvet.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-velvet.pagination > .active > span {
   background-color: #AD1457;
   border-color: #7f0f40;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-velvet.pagination > .active > span:focus {
   background-color: #AD1457;
   border-color: #7f0f40;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-velvet.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-velvet.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-velvet.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-velvet.switch + .switch-lever:before {
+  background-color: rgba(173, 20, 87, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-velvet.switch:checked + .switch-lever {
   background-color: #d46d9a;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-velvet.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-velvet.switch:checked + .switch-lever:after {
   background-color: #AD1457;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-velvet.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-velvet.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-velvet.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(173, 20, 87, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-velvet.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-velvet.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(173, 20, 87, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-velvet.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-velvet.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -21986,19 +21839,12 @@ fieldset[disabled] .color-whiteSmoke.btn.btn-outline.focus {
   background-color: #F5F5F5;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-whiteSmoke.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-whiteSmoke.pagination > .active > a {
   background-color: #F5F5F5;
   border-color: #dcdbdb;
@@ -22012,48 +21858,48 @@ fieldset[disabled] .color-whiteSmoke.btn.btn-outline.focus {
   color: #000000;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-whiteSmoke.pagination > .active > span {
   background-color: #F5F5F5;
   border-color: #dcdbdb;
   color: #000000;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-whiteSmoke.pagination > .active > span:focus {
   background-color: #F5F5F5;
   border-color: #dcdbdb;
   color: #000000;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-whiteSmoke.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-whiteSmoke.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-whiteSmoke.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-whiteSmoke.switch + .switch-lever:before {
+  background-color: rgba(245, 245, 245, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-whiteSmoke.switch:checked + .switch-lever {
   background-color: white;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-whiteSmoke.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-whiteSmoke.switch:checked + .switch-lever:after {
   background-color: #F5F5F5;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-whiteSmoke.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-whiteSmoke.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-whiteSmoke.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(245, 245, 245, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-whiteSmoke.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-whiteSmoke.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(245, 245, 245, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-whiteSmoke.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-whiteSmoke.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -22264,19 +22110,12 @@ fieldset[disabled] .color-gainsboro.btn.btn-outline.focus {
   background-color: #DEE2E6;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-gainsboro.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-gainsboro.pagination > .active > a {
   background-color: #DEE2E6;
   border-color: #c1c9d0;
@@ -22290,48 +22129,48 @@ fieldset[disabled] .color-gainsboro.btn.btn-outline.focus {
   color: #000000;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-gainsboro.pagination > .active > span {
   background-color: #DEE2E6;
   border-color: #c1c9d0;
   color: #000000;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-gainsboro.pagination > .active > span:focus {
   background-color: #DEE2E6;
   border-color: #c1c9d0;
   color: #000000;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-gainsboro.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gainsboro.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-gainsboro.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gainsboro.switch + .switch-lever:before {
+  background-color: rgba(222, 226, 230, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gainsboro.switch:checked + .switch-lever {
   background-color: white;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-gainsboro.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gainsboro.switch:checked + .switch-lever:after {
   background-color: #DEE2E6;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-gainsboro.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gainsboro.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-gainsboro.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(222, 226, 230, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-gainsboro.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-gainsboro.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(222, 226, 230, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-gainsboro.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gainsboro.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -22542,19 +22381,12 @@ fieldset[disabled] .color-gray.btn.btn-outline.focus {
   background-color: #9E9E9E;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-gray.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-gray.pagination > .active > a {
   background-color: #9E9E9E;
   border-color: #858484;
@@ -22568,48 +22400,48 @@ fieldset[disabled] .color-gray.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-gray.pagination > .active > span {
   background-color: #9E9E9E;
   border-color: #858484;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-gray.pagination > .active > span:focus {
   background-color: #9E9E9E;
   border-color: #858484;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-gray.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gray.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-gray.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gray.switch + .switch-lever:before {
+  background-color: rgba(158, 158, 158, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gray.switch:checked + .switch-lever {
   background-color: #dedede;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-gray.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gray.switch:checked + .switch-lever:after {
   background-color: #9E9E9E;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-gray.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gray.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-gray.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(158, 158, 158, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-gray.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-gray.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(158, 158, 158, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-gray.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-gray.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -22820,19 +22652,12 @@ fieldset[disabled] .color-black.btn.btn-outline.focus {
   background-color: #000000;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-black.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-black.pagination > .active > a {
   background-color: #000000;
   border-color: black;
@@ -22846,48 +22671,48 @@ fieldset[disabled] .color-black.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-black.pagination > .active > span {
   background-color: #000000;
   border-color: black;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-black.pagination > .active > span:focus {
   background-color: #000000;
   border-color: black;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-black.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-black.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-black.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-black.switch + .switch-lever:before {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-black.switch:checked + .switch-lever {
   background-color: #404040;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-black.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-black.switch:checked + .switch-lever:after {
   background-color: #000000;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-black.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-black.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-black.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-black.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-black.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(0, 0, 0, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-black.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-black.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -23098,19 +22923,12 @@ fieldset[disabled] .color-charcoal.btn.btn-outline.focus {
   background-color: #555555;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-charcoal.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-charcoal.pagination > .active > a {
   background-color: #555555;
   border-color: #3c3c3c;
@@ -23124,48 +22942,48 @@ fieldset[disabled] .color-charcoal.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-charcoal.pagination > .active > span {
   background-color: #555555;
   border-color: #3c3c3c;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-charcoal.pagination > .active > span:focus {
   background-color: #555555;
   border-color: #3c3c3c;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-charcoal.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-charcoal.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-charcoal.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-charcoal.switch + .switch-lever:before {
+  background-color: rgba(85, 85, 85, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-charcoal.switch:checked + .switch-lever {
   background-color: #959595;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-charcoal.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-charcoal.switch:checked + .switch-lever:after {
   background-color: #555555;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-charcoal.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-charcoal.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-charcoal.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(85, 85, 85, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-charcoal.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-charcoal.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(85, 85, 85, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-charcoal.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-charcoal.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -23376,19 +23194,12 @@ fieldset[disabled] .color-adn.btn.btn-outline.focus {
   background-color: #D87A68;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-adn.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-adn.pagination > .active > a {
   background-color: #D87A68;
   border-color: #ce563f;
@@ -23402,48 +23213,48 @@ fieldset[disabled] .color-adn.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-adn.pagination > .active > span {
   background-color: #D87A68;
   border-color: #ce563f;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-adn.pagination > .active > span:focus {
   background-color: #D87A68;
   border-color: #ce563f;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-adn.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-adn.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-adn.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-adn.switch + .switch-lever:before {
+  background-color: rgba(216, 122, 104, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-adn.switch:checked + .switch-lever {
   background-color: #ead9d5;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-adn.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-adn.switch:checked + .switch-lever:after {
   background-color: #D87A68;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-adn.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-adn.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-adn.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(216, 122, 104, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-adn.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-adn.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(216, 122, 104, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-adn.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-adn.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -23654,19 +23465,12 @@ fieldset[disabled] .color-bitbucket.btn.btn-outline.focus {
   background-color: #205081;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-bitbucket.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-bitbucket.pagination > .active > a {
   background-color: #205081;
   border-color: #163758;
@@ -23680,48 +23484,48 @@ fieldset[disabled] .color-bitbucket.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-bitbucket.pagination > .active > span {
   background-color: #205081;
   border-color: #163758;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-bitbucket.pagination > .active > span:focus {
   background-color: #205081;
   border-color: #163758;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-bitbucket.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-bitbucket.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-bitbucket.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-bitbucket.switch + .switch-lever:before {
+  background-color: rgba(32, 80, 129, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-bitbucket.switch:checked + .switch-lever {
   background-color: #6990b7;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-bitbucket.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-bitbucket.switch:checked + .switch-lever:after {
   background-color: #205081;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-bitbucket.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-bitbucket.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-bitbucket.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(32, 80, 129, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-bitbucket.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-bitbucket.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(32, 80, 129, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-bitbucket.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-bitbucket.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -23932,19 +23736,12 @@ fieldset[disabled] .color-dropbox.btn.btn-outline.focus {
   background-color: #1087DD;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-dropbox.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-dropbox.pagination > .active > a {
   background-color: #1087DD;
   border-color: #0d6aad;
@@ -23958,48 +23755,48 @@ fieldset[disabled] .color-dropbox.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-dropbox.pagination > .active > span {
   background-color: #1087DD;
   border-color: #0d6aad;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-dropbox.pagination > .active > span:focus {
   background-color: #1087DD;
   border-color: #0d6aad;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-dropbox.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-dropbox.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-dropbox.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-dropbox.switch + .switch-lever:before {
+  background-color: rgba(16, 135, 221, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-dropbox.switch:checked + .switch-lever {
   background-color: #8abde3;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-dropbox.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-dropbox.switch:checked + .switch-lever:after {
   background-color: #1087DD;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-dropbox.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-dropbox.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-dropbox.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(16, 135, 221, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-dropbox.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-dropbox.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(16, 135, 221, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-dropbox.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-dropbox.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -24210,19 +24007,12 @@ fieldset[disabled] .color-facebook.btn.btn-outline.focus {
   background-color: #3B5998;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-facebook.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-facebook.pagination > .active > a {
   background-color: #3B5998;
   border-color: #2d4373;
@@ -24236,48 +24026,48 @@ fieldset[disabled] .color-facebook.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-facebook.pagination > .active > span {
   background-color: #3B5998;
   border-color: #2d4373;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-facebook.pagination > .active > span:focus {
   background-color: #3B5998;
   border-color: #2d4373;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-facebook.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-facebook.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-facebook.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-facebook.switch + .switch-lever:before {
+  background-color: rgba(59, 89, 152, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-facebook.switch:checked + .switch-lever {
   background-color: #99a3ba;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-facebook.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-facebook.switch:checked + .switch-lever:after {
   background-color: #3B5998;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-facebook.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-facebook.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-facebook.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(59, 89, 152, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-facebook.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-facebook.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(59, 89, 152, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-facebook.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-facebook.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -24488,19 +24278,12 @@ fieldset[disabled] .color-flickr.btn.btn-outline.focus {
   background-color: #2BA9E1;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-flickr.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-flickr.pagination > .active > a {
   background-color: #2BA9E1;
   border-color: #1b8cbe;
@@ -24514,48 +24297,48 @@ fieldset[disabled] .color-flickr.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-flickr.pagination > .active > span {
   background-color: #2BA9E1;
   border-color: #1b8cbe;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-flickr.pagination > .active > span:focus {
   background-color: #2BA9E1;
   border-color: #1b8cbe;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-flickr.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-flickr.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-flickr.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-flickr.switch + .switch-lever:before {
+  background-color: rgba(43, 169, 225, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-flickr.switch:checked + .switch-lever {
   background-color: #a9d1e2;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-flickr.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-flickr.switch:checked + .switch-lever:after {
   background-color: #2BA9E1;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-flickr.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-flickr.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-flickr.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(43, 169, 225, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-flickr.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-flickr.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(43, 169, 225, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-flickr.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-flickr.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -24766,19 +24549,12 @@ fieldset[disabled] .color-foursquare.btn.btn-outline.focus {
   background-color: #F94877;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-foursquare.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-foursquare.pagination > .active > a {
   background-color: #F94877;
   border-color: #f71752;
@@ -24792,48 +24568,48 @@ fieldset[disabled] .color-foursquare.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-foursquare.pagination > .active > span {
   background-color: #F94877;
   border-color: #f71752;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-foursquare.pagination > .active > span:focus {
   background-color: #F94877;
   border-color: #f71752;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-foursquare.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-foursquare.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-foursquare.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-foursquare.switch + .switch-lever:before {
+  background-color: rgba(249, 72, 119, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-foursquare.switch:checked + .switch-lever {
   background-color: #f5cbd6;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-foursquare.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-foursquare.switch:checked + .switch-lever:after {
   background-color: #F94877;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-foursquare.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-foursquare.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-foursquare.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(249, 72, 119, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-foursquare.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-foursquare.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(249, 72, 119, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-foursquare.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-foursquare.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -25044,19 +24820,12 @@ fieldset[disabled] .color-github.btn.btn-outline.focus {
   background-color: #444444;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-github.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-github.pagination > .active > a {
   background-color: #444444;
   border-color: #2b2a2a;
@@ -25070,48 +24839,48 @@ fieldset[disabled] .color-github.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-github.pagination > .active > span {
   background-color: #444444;
   border-color: #2b2a2a;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-github.pagination > .active > span:focus {
   background-color: #444444;
   border-color: #2b2a2a;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-github.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-github.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-github.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-github.switch + .switch-lever:before {
+  background-color: rgba(68, 68, 68, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-github.switch:checked + .switch-lever {
   background-color: #848484;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-github.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-github.switch:checked + .switch-lever:after {
   background-color: #444444;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-github.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-github.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-github.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(68, 68, 68, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-github.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-github.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(68, 68, 68, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-github.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-github.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -25322,19 +25091,12 @@ fieldset[disabled] .color-google.btn.btn-outline.focus {
   background-color: #DD4B39;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-google.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-google.pagination > .active > a {
   background-color: #DD4B39;
   border-color: #c23321;
@@ -25348,48 +25110,48 @@ fieldset[disabled] .color-google.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-google.pagination > .active > span {
   background-color: #DD4B39;
   border-color: #c23321;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-google.pagination > .active > span:focus {
   background-color: #DD4B39;
   border-color: #c23321;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-google.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-google.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-google.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-google.switch + .switch-lever:before {
+  background-color: rgba(221, 75, 57, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-google.switch:checked + .switch-lever {
   background-color: #e3b8b3;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-google.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-google.switch:checked + .switch-lever:after {
   background-color: #DD4B39;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-google.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-google.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-google.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(221, 75, 57, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-google.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-google.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(221, 75, 57, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-google.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-google.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -25600,19 +25362,12 @@ fieldset[disabled] .color-instagram.btn.btn-outline.focus {
   background-color: #3F729B;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-instagram.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-instagram.pagination > .active > a {
   background-color: #3F729B;
   border-color: #305777;
@@ -25626,48 +25381,48 @@ fieldset[disabled] .color-instagram.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-instagram.pagination > .active > span {
   background-color: #3F729B;
   border-color: #305777;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-instagram.pagination > .active > span:focus {
   background-color: #3F729B;
   border-color: #305777;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-instagram.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-instagram.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-instagram.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-instagram.switch + .switch-lever:before {
+  background-color: rgba(63, 114, 155, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-instagram.switch:checked + .switch-lever {
   background-color: #9faebb;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-instagram.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-instagram.switch:checked + .switch-lever:after {
   background-color: #3F729B;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-instagram.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-instagram.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-instagram.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(63, 114, 155, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-instagram.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-instagram.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(63, 114, 155, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-instagram.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-instagram.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -25878,19 +25633,12 @@ fieldset[disabled] .color-linkedin.btn.btn-outline.focus {
   background-color: #007BB6;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-linkedin.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-linkedin.pagination > .active > a {
   background-color: #007BB6;
   border-color: #005983;
@@ -25904,48 +25652,48 @@ fieldset[disabled] .color-linkedin.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-linkedin.pagination > .active > span {
   background-color: #007BB6;
   border-color: #005983;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-linkedin.pagination > .active > span:focus {
   background-color: #007BB6;
   border-color: #005983;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-linkedin.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-linkedin.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-linkedin.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-linkedin.switch + .switch-lever:before {
+  background-color: rgba(0, 123, 182, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-linkedin.switch:checked + .switch-lever {
   background-color: #50b5e6;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-linkedin.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-linkedin.switch:checked + .switch-lever:after {
   background-color: #007BB6;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-linkedin.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-linkedin.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-linkedin.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(0, 123, 182, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-linkedin.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-linkedin.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(0, 123, 182, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-linkedin.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-linkedin.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -26156,19 +25904,12 @@ fieldset[disabled] .color-microsoft.btn.btn-outline.focus {
   background-color: #2672EC;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-microsoft.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-microsoft.pagination > .active > a {
   background-color: #2672EC;
   border-color: #125acd;
@@ -26182,48 +25923,48 @@ fieldset[disabled] .color-microsoft.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-microsoft.pagination > .active > span {
   background-color: #2672EC;
   border-color: #125acd;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-microsoft.pagination > .active > span:focus {
   background-color: #2672EC;
   border-color: #125acd;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-microsoft.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-microsoft.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-microsoft.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-microsoft.switch + .switch-lever:before {
+  background-color: rgba(38, 114, 236, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-microsoft.switch:checked + .switch-lever {
   background-color: #a9c1e9;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-microsoft.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-microsoft.switch:checked + .switch-lever:after {
   background-color: #2672EC;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-microsoft.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-microsoft.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-microsoft.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(38, 114, 236, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-microsoft.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-microsoft.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(38, 114, 236, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-microsoft.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-microsoft.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -26434,19 +26175,12 @@ fieldset[disabled] .color-odnoklassniki.btn.btn-outline.focus {
   background-color: #F4731C;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-odnoklassniki.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-odnoklassniki.pagination > .active > a {
   background-color: #F4731C;
   border-color: #d35b0a;
@@ -26460,48 +26194,48 @@ fieldset[disabled] .color-odnoklassniki.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-odnoklassniki.pagination > .active > span {
   background-color: #F4731C;
   border-color: #d35b0a;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-odnoklassniki.pagination > .active > span:focus {
   background-color: #F4731C;
   border-color: #d35b0a;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-odnoklassniki.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-odnoklassniki.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-odnoklassniki.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-odnoklassniki.switch + .switch-lever:before {
+  background-color: rgba(244, 115, 28, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-odnoklassniki.switch:checked + .switch-lever {
   background-color: #ecc1a3;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-odnoklassniki.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-odnoklassniki.switch:checked + .switch-lever:after {
   background-color: #F4731C;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-odnoklassniki.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-odnoklassniki.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-odnoklassniki.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(244, 115, 28, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-odnoklassniki.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-odnoklassniki.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(244, 115, 28, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-odnoklassniki.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-odnoklassniki.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -26712,19 +26446,12 @@ fieldset[disabled] .color-openid.btn.btn-outline.focus {
   background-color: #F7931E;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-openid.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-openid.pagination > .active > a {
   background-color: #F7931E;
   border-color: #da7908;
@@ -26738,48 +26465,48 @@ fieldset[disabled] .color-openid.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-openid.pagination > .active > span {
   background-color: #F7931E;
   border-color: #da7908;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-openid.pagination > .active > span:focus {
   background-color: #F7931E;
   border-color: #da7908;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-openid.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-openid.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-openid.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-openid.switch + .switch-lever:before {
+  background-color: rgba(247, 147, 30, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-openid.switch:checked + .switch-lever {
   background-color: #eecda6;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-openid.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-openid.switch:checked + .switch-lever:after {
   background-color: #F7931E;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-openid.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-openid.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-openid.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(247, 147, 30, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-openid.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-openid.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(247, 147, 30, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-openid.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-openid.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -26990,19 +26717,12 @@ fieldset[disabled] .color-pinterest.btn.btn-outline.focus {
   background-color: #CB2027;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-pinterest.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-pinterest.pagination > .active > a {
   background-color: #CB2027;
   border-color: #9f191f;
@@ -27016,48 +26736,48 @@ fieldset[disabled] .color-pinterest.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-pinterest.pagination > .active > span {
   background-color: #CB2027;
   border-color: #9f191f;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-pinterest.pagination > .active > span:focus {
   background-color: #CB2027;
   border-color: #9f191f;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-pinterest.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pinterest.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-pinterest.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pinterest.switch + .switch-lever:before {
+  background-color: rgba(203, 32, 39, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pinterest.switch:checked + .switch-lever {
   background-color: #d89295;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-pinterest.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pinterest.switch:checked + .switch-lever:after {
   background-color: #CB2027;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-pinterest.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pinterest.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-pinterest.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(203, 32, 39, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-pinterest.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-pinterest.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(203, 32, 39, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-pinterest.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-pinterest.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -27268,19 +26988,12 @@ fieldset[disabled] .color-reddit.btn.btn-outline.focus {
   background-color: #EFF7FF;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-reddit.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-reddit.pagination > .active > a {
   background-color: #EFF7FF;
   border-color: #bcdeff;
@@ -27294,48 +27007,48 @@ fieldset[disabled] .color-reddit.btn.btn-outline.focus {
   color: #000000;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-reddit.pagination > .active > span {
   background-color: #EFF7FF;
   border-color: #bcdeff;
   color: #000000;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-reddit.pagination > .active > span:focus {
   background-color: #EFF7FF;
   border-color: #bcdeff;
   color: #000000;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-reddit.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-reddit.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-reddit.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-reddit.switch + .switch-lever:before {
+  background-color: rgba(239, 247, 255, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-reddit.switch:checked + .switch-lever {
   background-color: white;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-reddit.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-reddit.switch:checked + .switch-lever:after {
   background-color: #EFF7FF;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-reddit.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-reddit.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-reddit.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(239, 247, 255, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-reddit.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-reddit.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(239, 247, 255, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-reddit.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-reddit.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -27546,19 +27259,12 @@ fieldset[disabled] .color-soundcloud.btn.btn-outline.focus {
   background-color: #FF5500;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-soundcloud.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-soundcloud.pagination > .active > a {
   background-color: #FF5500;
   border-color: #cc4400;
@@ -27572,48 +27278,48 @@ fieldset[disabled] .color-soundcloud.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-soundcloud.pagination > .active > span {
   background-color: #FF5500;
   border-color: #cc4400;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-soundcloud.pagination > .active > span:focus {
   background-color: #FF5500;
   border-color: #cc4400;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-soundcloud.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-soundcloud.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-soundcloud.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-soundcloud.switch + .switch-lever:before {
+  background-color: rgba(255, 85, 0, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-soundcloud.switch:checked + .switch-lever {
   background-color: #efaf8f;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-soundcloud.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-soundcloud.switch:checked + .switch-lever:after {
   background-color: #FF5500;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-soundcloud.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-soundcloud.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-soundcloud.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(255, 85, 0, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-soundcloud.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-soundcloud.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(255, 85, 0, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-soundcloud.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-soundcloud.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -27824,19 +27530,12 @@ fieldset[disabled] .color-tumblr.btn.btn-outline.focus {
   background-color: #CB2027;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-tumblr.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-tumblr.pagination > .active > a {
   background-color: #CB2027;
   border-color: #9f191f;
@@ -27850,48 +27549,48 @@ fieldset[disabled] .color-tumblr.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-tumblr.pagination > .active > span {
   background-color: #CB2027;
   border-color: #9f191f;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-tumblr.pagination > .active > span:focus {
   background-color: #CB2027;
   border-color: #9f191f;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-tumblr.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-tumblr.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-tumblr.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-tumblr.switch + .switch-lever:before {
+  background-color: rgba(203, 32, 39, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-tumblr.switch:checked + .switch-lever {
   background-color: #d89295;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-tumblr.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-tumblr.switch:checked + .switch-lever:after {
   background-color: #CB2027;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-tumblr.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-tumblr.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-tumblr.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(203, 32, 39, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-tumblr.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-tumblr.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(203, 32, 39, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-tumblr.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-tumblr.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -28102,19 +27801,12 @@ fieldset[disabled] .color-twitter.btn.btn-outline.focus {
   background-color: #55ACEE;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-twitter.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-twitter.pagination > .active > a {
   background-color: #55ACEE;
   border-color: #2795e9;
@@ -28128,48 +27820,48 @@ fieldset[disabled] .color-twitter.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-twitter.pagination > .active > span {
   background-color: #55ACEE;
   border-color: #2795e9;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-twitter.pagination > .active > span:focus {
   background-color: #55ACEE;
   border-color: #2795e9;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-twitter.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-twitter.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-twitter.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-twitter.switch + .switch-lever:before {
+  background-color: rgba(85, 172, 238, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-twitter.switch:checked + .switch-lever {
   background-color: #d0e4f2;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-twitter.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-twitter.switch:checked + .switch-lever:after {
   background-color: #55ACEE;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-twitter.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-twitter.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-twitter.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(85, 172, 238, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-twitter.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-twitter.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(85, 172, 238, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-twitter.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-twitter.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -28380,19 +28072,12 @@ fieldset[disabled] .color-vimeo.btn.btn-outline.focus {
   background-color: #1AB7EA;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-vimeo.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-vimeo.pagination > .active > a {
   background-color: #1AB7EA;
   border-color: #1295bf;
@@ -28406,48 +28091,48 @@ fieldset[disabled] .color-vimeo.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-vimeo.pagination > .active > span {
   background-color: #1AB7EA;
   border-color: #1295bf;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-vimeo.pagination > .active > span:focus {
   background-color: #1AB7EA;
   border-color: #1295bf;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-vimeo.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vimeo.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-vimeo.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vimeo.switch + .switch-lever:before {
+  background-color: rgba(26, 183, 234, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vimeo.switch:checked + .switch-lever {
   background-color: #9ed4e5;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-vimeo.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vimeo.switch:checked + .switch-lever:after {
   background-color: #1AB7EA;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-vimeo.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vimeo.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-vimeo.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(26, 183, 234, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-vimeo.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-vimeo.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(26, 183, 234, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-vimeo.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vimeo.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -28658,19 +28343,12 @@ fieldset[disabled] .color-vk.btn.btn-outline.focus {
   background-color: #587EA3;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-vk.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-vk.pagination > .active > a {
   background-color: #587EA3;
   border-color: #466482;
@@ -28684,48 +28362,48 @@ fieldset[disabled] .color-vk.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-vk.pagination > .active > span {
   background-color: #587EA3;
   border-color: #466482;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-vk.pagination > .active > span:focus {
   background-color: #587EA3;
   border-color: #466482;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-vk.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vk.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-vk.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vk.switch + .switch-lever:before {
+  background-color: rgba(88, 126, 163, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vk.switch:checked + .switch-lever {
   background-color: #babdc0;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-vk.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vk.switch:checked + .switch-lever:after {
   background-color: #587EA3;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-vk.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vk.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-vk.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(88, 126, 163, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-vk.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-vk.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(88, 126, 163, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-vk.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-vk.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -28936,19 +28614,12 @@ fieldset[disabled] .color-yahoo.btn.btn-outline.focus {
   background-color: #720E9E;
 }
 
-/*
-  .nav-outline {
-
-
-
-  }
-  */
-/* line 257, src/styles/mixins/_color-variant.scss */
+/* line 250, src/styles/mixins/_color-variant.scss */
 .color-yahoo.pagination {
   background-color: transparent;
 }
 
-/* line 261, src/styles/mixins/_color-variant.scss */
+/* line 254, src/styles/mixins/_color-variant.scss */
 .color-yahoo.pagination > .active > a {
   background-color: #720E9E;
   border-color: #500a6f;
@@ -28962,48 +28633,48 @@ fieldset[disabled] .color-yahoo.btn.btn-outline.focus {
   color: #FFFFFF;
 }
 
-/* line 273, src/styles/mixins/_color-variant.scss */
+/* line 266, src/styles/mixins/_color-variant.scss */
 .color-yahoo.pagination > .active > span {
   background-color: #720E9E;
   border-color: #500a6f;
   color: #FFFFFF;
 }
 
-/* line 278, src/styles/mixins/_color-variant.scss */
+/* line 271, src/styles/mixins/_color-variant.scss */
 .color-yahoo.pagination > .active > span:focus {
   background-color: #720E9E;
   border-color: #500a6f;
   color: #FFFFFF;
 }
 
-/* line 291, src/styles/mixins/_color-variant.scss */
-.color-yahoo.switch {
+/* line 284, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yahoo.switch {
   background-color: transparent;
 }
 
-/* line 295, src/styles/mixins/_color-variant.scss */
-.color-yahoo.switch label input[type=checkbox]:checked + .lever {
+/* line 288, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yahoo.switch + .switch-lever:before {
+  background-color: rgba(114, 14, 158, 0.15);
+}
+
+/* line 293, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yahoo.switch:checked + .switch-lever {
   background-color: #ae58d4;
 }
 
-/* line 298, src/styles/mixins/_color-variant.scss */
-.color-yahoo.switch label input[type=checkbox]:checked + .lever:after {
+/* line 296, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yahoo.switch:checked + .switch-lever:after {
   background-color: #720E9E;
 }
 
-/* line 304, src/styles/mixins/_color-variant.scss */
-.color-yahoo.switch label .lever:before {
+/* line 302, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yahoo.switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].color-yahoo.switch:checked:not(:disabled) ~ .switch-lever:active:before {
   background-color: rgba(114, 14, 158, 0.15);
 }
 
-/* line 309, src/styles/mixins/_color-variant.scss */
-.color-yahoo.switch input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
-.color-yahoo.switch input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
-  background-color: rgba(114, 14, 158, 0.15);
-}
-
-/* line 314, src/styles/mixins/_color-variant.scss */
-.color-yahoo.switch input[type=checkbox][disabled]:checked + .lever {
+/* line 308, src/styles/mixins/_color-variant.scss */
+input[type=checkbox].color-yahoo.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
@@ -43999,105 +43670,184 @@ button.form-control-feedback {
 
 /* Switch
    ========================================================================== */
-/* line 12, src/styles/plus/01-base/_forms-switch.scss */
+/* line 13, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  height: .875rem;
+  margin: 0 .25rem;
+  opacity: 0;
+  width: 2.25rem;
+}
+
+/* line 23, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch + .switch-lever {
+  content: "";
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.38);
+  border-radius: 15px;
+  display: inline-block;
+  height: .875rem;
+  margin-left: -2.5rem;
+  margin-right: .25rem;
+  transition: background 0.3s ease;
+  width: 2.25rem;
+}
+
+/* line 36, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch + .switch-lever:before, input[type=checkbox].switch + .switch-lever:after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 0;
+  border-radius: 50%;
+  display: inline-block;
+  height: 1.3rem;
+  width: 1.3rem;
+  transition: left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease;
+}
+
+/* line 54, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch + .switch-lever:before {
+  background-color: rgba(153, 51, 204, 0.15);
+}
+
+/* line 58, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch + .switch-lever:after {
+  background-color: #F1F1F1;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+/* line 66, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch:checked + .switch-lever {
+  background-color: #c7a9d6;
+}
+
+/* line 69, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch:checked + .switch-lever:before, input[type=checkbox].switch:checked + .switch-lever:after {
+  left: 1.1rem;
+}
+
+/* line 74, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch:checked + .switch-lever:after {
+  background-color: #9933CC;
+}
+
+/* line 80, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch:checked:active:not(:disabled) + .switch-lever:before,
+input[type=checkbox].switch:checked:not(:disabled) ~ .switch-lever:active:before {
+  background-color: rgba(153, 51, 204, 0.15);
+  transform: scale(2.4);
+}
+
+/* line 86, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch:active:not(:disabled) ~ .switch-lever:before,
+input[type=checkbox].switch:not(:disabled) ~ .switch-lever:active:before {
+  background-color: rgba(0, 0, 0, 0.08);
+  transform: scale(2.4);
+}
+
+/* line 93, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch[disabled] + .switch-lever {
+  background-color: rgba(0, 0, 0, 0.12);
+  cursor: default;
+}
+
+/* line 98, src/styles/plus/01-base/_forms-switch.scss */
+input[type=checkbox].switch[disabled] + .switch-lever:after,
+input[type=checkbox].switch[disabled]:checked + .switch-lever:after {
+  background-color: #949494;
+}
+
+/*
 .switch,
 .switch * {
   -webkit-tap-highlight-color: transparent;
   user-select: none;
 }
 
-/* line 18, src/styles/plus/01-base/_forms-switch.scss */
 .switch label {
   cursor: pointer;
 }
 
-/* line 22, src/styles/plus/01-base/_forms-switch.scss */
 .switch label input[type=checkbox] {
   opacity: 0;
   width: 0;
   height: 0;
+
+  &:checked + .lever {
+    background-color: $switch-checked-lever-bg;
+
+    &:before, &:after {
+      left: 18px;
+    }
+
+    &:after {
+      background-color: $switch-bg-color;
+    }
+  }
 }
 
-/* line 27, src/styles/plus/01-base/_forms-switch.scss */
-.switch label input[type=checkbox]:checked + .lever {
-  background-color: #c7a9d6;
-}
-
-/* line 30, src/styles/plus/01-base/_forms-switch.scss */
-.switch label input[type=checkbox]:checked + .lever:before, .switch label input[type=checkbox]:checked + .lever:after {
-  left: 18px;
-}
-
-/* line 34, src/styles/plus/01-base/_forms-switch.scss */
-.switch label input[type=checkbox]:checked + .lever:after {
-  background-color: #9933CC;
-}
-
-/* line 40, src/styles/plus/01-base/_forms-switch.scss */
 .switch label .lever {
   content: "";
   display: inline-block;
   position: relative;
   width: 36px;
   height: 14px;
-  background-color: rgba(0, 0, 0, 0.38);
-  border-radius: 15px;
+  background-color: $switch-unchecked-lever-bg;
+  border-radius: $switch-radius;
   margin-right: 10px;
   transition: background 0.3s ease;
   vertical-align: middle;
   margin: 0 16px;
+
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: 0;
+    top: -3px;
+    transition: left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease;
+  }
+
+  &:before {
+    background-color: transparentize($switch-bg-color, .85);
+  }
+
+  &:after {
+    background-color: $switch-unchecked-bg;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  }
 }
 
-/* line 53, src/styles/plus/01-base/_forms-switch.scss */
-.switch label .lever:before, .switch label .lever:after {
-  content: "";
-  position: absolute;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  left: 0;
-  top: -3px;
-  transition: left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease;
-}
-
-/* line 65, src/styles/plus/01-base/_forms-switch.scss */
-.switch label .lever:before {
-  background-color: rgba(153, 51, 204, 0.15);
-}
-
-/* line 69, src/styles/plus/01-base/_forms-switch.scss */
-.switch label .lever:after {
-  background-color: #F1F1F1;
-  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-}
-
-/* line 76, src/styles/plus/01-base/_forms-switch.scss */
+// Switch active style
 input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
 input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
   transform: scale(2.4);
-  background-color: rgba(153, 51, 204, 0.15);
+  background-color: transparentize($switch-bg-color, .85);
 }
 
-/* line 82, src/styles/plus/01-base/_forms-switch.scss */
 input[type=checkbox]:not(:disabled) ~ .lever:active:before,
 input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   transform: scale(2.4);
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: rgba(0,0,0,.08);
 }
 
-/* line 89, src/styles/plus/01-base/_forms-switch.scss */
+// Disabled Styles
 .switch input[type=checkbox][disabled] + .lever {
   cursor: default;
-  background-color: rgba(0, 0, 0, 0.12);
+  background-color: rgba(0,0,0,.12);
 }
 
-/* line 94, src/styles/plus/01-base/_forms-switch.scss */
 .switch label input[type=checkbox][disabled] + .lever:after,
 .switch label input[type=checkbox][disabled]:checked + .lever:after {
-  background-color: #949494;
+  background-color: $input-disabled-solid-color;
 }
-
+*/
 /* line 2, src/styles/plus/02-components/_tabs.scss */
 .nav-scroll {
   overflow: hidden;
