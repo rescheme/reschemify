@@ -2,7 +2,7 @@
  * @license
  * Reschemify
  * Package Name - reschemify
- * Version - 0.1.6
+ * Version - 0.1.7
  *
  * Copyright (c) Rescheme 2020-06-30
  */
@@ -43900,7 +43900,6 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
 .nav-outline .nav-link:focus, .nav-outline .nav-link:hover {
   border-color: transparent;
   color: rgba(0, 0, 0, 0.7);
-  margin-bottom: 0;
 }
 
 /* line 60, src/styles/plus/02-components/_tabs.scss */

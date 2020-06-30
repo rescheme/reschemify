@@ -1,10 +1,10 @@
 /*!
  * @license
  * Reschemify
- * Package Name - reschemify
- * Version - 0.1.6
+ * Package Name - {{ PKG_NAME }}
+ * Version - {{ PKG_VERSION }}
  *
- * Copyright (c) Rescheme 2020-06-30
+ * Copyright (c) Rescheme {{ PKG_TODAY }}
  */
 
 ;(function (global, factory) {

@@ -27990,7 +27990,6 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
 .nav-outline .nav-link:focus, .nav-outline .nav-link:hover {
   border-color: transparent;
   color: rgba(0, 0, 0, 0.7);
-  margin-bottom: 0;
 }
 
 /* line 60, src/styles/plus/02-components/_tabs.scss */
