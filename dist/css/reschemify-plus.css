@@ -27601,16 +27601,21 @@ a.text-yahoo:focus, a.text-yahoo:hover {
 }
 
 /* line 17, src/styles/plus/01-base/_typography.scss */
-.font-mono {
-  font-family: "Roboto Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+.font-display {
+  font-family: "DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 21, src/styles/plus/01-base/_typography.scss */
+.font-monospace {
+  font-family: "Roboto Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* line 25, src/styles/plus/01-base/_typography.scss */
 .font-rounded {
   font-family: "M PLUS Rounded 1c", Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
-/* line 25, src/styles/plus/01-base/_typography.scss */
+/* line 29, src/styles/plus/01-base/_typography.scss */
 .font-slab {
   font-family: "Roboto Slab", Lucida, Georgia, serif;
 }
@@ -27618,57 +27623,57 @@ a.text-yahoo:focus, a.text-yahoo:hover {
 /**
  * Font Stacks
  */
-/* line 34, src/styles/plus/01-base/_typography.scss */
+/* line 38, src/styles/plus/01-base/_typography.scss */
 .font-stack-rescheme {
   font-family: "Rescheme Sans", "Manrope", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 38, src/styles/plus/01-base/_typography.scss */
+/* line 42, src/styles/plus/01-base/_typography.scss */
 .font-stack-bangers {
   font-family: "Bangers", cursive;
 }
 
-/* line 42, src/styles/plus/01-base/_typography.scss */
+/* line 46, src/styles/plus/01-base/_typography.scss */
 .font-stack-cookie {
   font-family: "Cookie", cursive;
 }
 
-/* line 46, src/styles/plus/01-base/_typography.scss */
+/* line 50, src/styles/plus/01-base/_typography.scss */
 .font-stack-dm-sans {
   font-family: "DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 50, src/styles/plus/01-base/_typography.scss */
+/* line 54, src/styles/plus/01-base/_typography.scss */
 .font-stack-inter {
   font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 54, src/styles/plus/01-base/_typography.scss */
+/* line 58, src/styles/plus/01-base/_typography.scss */
 .font-stack-manrope {
   font-family: "Manrope", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 58, src/styles/plus/01-base/_typography.scss */
+/* line 62, src/styles/plus/01-base/_typography.scss */
 .font-stack-metropolis {
   font-family: "Metropolis", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 62, src/styles/plus/01-base/_typography.scss */
+/* line 66, src/styles/plus/01-base/_typography.scss */
 .font-stack-mplus-rounded-1c {
   font-family: "M PLUS Rounded 1c", Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
-/* line 66, src/styles/plus/01-base/_typography.scss */
+/* line 70, src/styles/plus/01-base/_typography.scss */
 .font-stack-roboto {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 70, src/styles/plus/01-base/_typography.scss */
+/* line 74, src/styles/plus/01-base/_typography.scss */
 .font-stack-roboto-mono {
   font-family: "Roboto Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-/* line 74, src/styles/plus/01-base/_typography.scss */
+/* line 78, src/styles/plus/01-base/_typography.scss */
 .font-stack-roboto-slab {
   font-family: "Roboto Slab", Lucida, Georgia, serif;
 }
