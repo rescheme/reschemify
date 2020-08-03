@@ -2,9 +2,9 @@
  * @license
  * Reschemify
  * Package Name - reschemify
- * Version - 0.1.7
+ * Version - 0.1.8
  *
- * Copyright (c) Rescheme 2020-06-30
+ * Copyright (c) Rescheme 2020-08-04
  */
 
 /*!
@@ -15924,23 +15924,11 @@ div.DTS div.dataTables_scrollBody table {
   font-smoothing: antialiased;
 }
 
-/* line 9, src/styles/_scaffolding.scss */
-html {
-  position: relative;
-}
-
-/* line 20, src/styles/_scaffolding.scss */
+/* line 13, src/styles/_scaffolding.scss */
 a[disabled] {
   pointer-events: none;
 }
 
-/**
-|=======================================================
-| Color Variants
-|=======================================================
-| Utilities
-|
-*/
 /* line 12, src/styles/mixins/_color-variant.scss */
 .color-red {
   background-color: #F44336;
@@ -28678,13 +28666,6 @@ input[type=checkbox].color-yahoo.switch[disabled]:checked + .switch-lever {
   background-color: rgba(0, 0, 0, 0.12);
 }
 
-/**
-|=======================================================
-| Background
-|=======================================================
-| Utilities
-|
-*/
 /* line 9, src/styles/mixins/_background-variant.scss */
 .bg-red {
   background-color: #F44336 !important;
@@ -30240,64 +30221,52 @@ input[type=checkbox].color-yahoo.switch[disabled]:checked + .switch-lever {
   background-color: #720E9E !important;
 }
 
-/* line 14, src/styles/utilities/_background.scss */
-.bg-transparent {
-  background-color: transparent !important;
-}
-
-/**
-|=======================================================
-| Border
-|=======================================================
-| Utilities
-|
-*/
-/* line 15, src/styles/utilities/_border.scss */
+/* line 7, src/styles/utilities/_border.scss */
 .border-lg {
   border: 3px solid #DEE2E6 !important;
 }
 
-/* line 19, src/styles/utilities/_border.scss */
+/* line 11, src/styles/utilities/_border.scss */
 .border-top-lg {
   border-top: 3px solid #DEE2E6 !important;
 }
 
-/* line 23, src/styles/utilities/_border.scss */
+/* line 15, src/styles/utilities/_border.scss */
 .border-right-lg {
   border-right: 3px solid #DEE2E6 !important;
 }
 
-/* line 27, src/styles/utilities/_border.scss */
+/* line 19, src/styles/utilities/_border.scss */
 .border-bottom-lg {
   border-bottom: 3px solid #DEE2E6 !important;
 }
 
-/* line 31, src/styles/utilities/_border.scss */
+/* line 23, src/styles/utilities/_border.scss */
 .border-left-lg {
   border-left: 3px solid #DEE2E6 !important;
 }
 
-/* line 35, src/styles/utilities/_border.scss */
+/* line 27, src/styles/utilities/_border.scss */
 .border-xl {
   border: 4px solid #DEE2E6 !important;
 }
 
-/* line 39, src/styles/utilities/_border.scss */
+/* line 31, src/styles/utilities/_border.scss */
 .border-top-xl {
   border-top: 4px solid #DEE2E6 !important;
 }
 
-/* line 43, src/styles/utilities/_border.scss */
+/* line 35, src/styles/utilities/_border.scss */
 .border-right-xl {
   border-right: 4px solid #DEE2E6 !important;
 }
 
-/* line 47, src/styles/utilities/_border.scss */
+/* line 39, src/styles/utilities/_border.scss */
 .border-bottom-xl {
   border-bottom: 4px solid #DEE2E6 !important;
 }
 
-/* line 51, src/styles/utilities/_border.scss */
+/* line 43, src/styles/utilities/_border.scss */
 .border-left-xl {
   border-left: 4px solid #DEE2E6 !important;
 }
@@ -30537,13 +30506,6 @@ input[type=checkbox].color-yahoo.switch[disabled]:checked + .switch-lever {
   border-color: #720E9E !important;
 }
 
-/**
-|=======================================================
-| Text
-|=======================================================
-| Utilities
-|
-*/
 /* line 4, src/styles/mixins/_text-emphasis-variant.scss */
 .text-red:not(.nav), .text-red:not(.pagination) {
   color: #F44336 !important;
@@ -42984,122 +42946,6 @@ a.text-yahoo:focus, a.text-yahoo:hover {
   color: #500a6f !important;
 }
 
-/* line 22, src/styles/utilities/_text.scss */
-.text-justify {
-  text-align: justify !important;
-}
-
-/* line 26, src/styles/utilities/_text.scss */
-.text-nowrap {
-  white-space: nowrap !important;
-}
-
-/* line 30, src/styles/utilities/_text.scss */
-.text-truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-/* line 42, src/styles/utilities/_text.scss */
-.text-left {
-  text-align: left !important;
-}
-
-/* line 46, src/styles/utilities/_text.scss */
-.text-right {
-  text-align: right !important;
-}
-
-/* line 50, src/styles/utilities/_text.scss */
-.text-center {
-  text-align: center !important;
-}
-
-@media (min-width: 768px) {
-  /* line 42, src/styles/utilities/_text.scss */
-  .text-sm-left {
-    text-align: left !important;
-  }
-  /* line 46, src/styles/utilities/_text.scss */
-  .text-sm-right {
-    text-align: right !important;
-  }
-  /* line 50, src/styles/utilities/_text.scss */
-  .text-sm-center {
-    text-align: center !important;
-  }
-}
-
-@media (min-width: 992px) {
-  /* line 42, src/styles/utilities/_text.scss */
-  .text-md-left {
-    text-align: left !important;
-  }
-  /* line 46, src/styles/utilities/_text.scss */
-  .text-md-right {
-    text-align: right !important;
-  }
-  /* line 50, src/styles/utilities/_text.scss */
-  .text-md-center {
-    text-align: center !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 42, src/styles/utilities/_text.scss */
-  .text-lg-left {
-    text-align: left !important;
-  }
-  /* line 46, src/styles/utilities/_text.scss */
-  .text-lg-right {
-    text-align: right !important;
-  }
-  /* line 50, src/styles/utilities/_text.scss */
-  .text-lg-center {
-    text-align: center !important;
-  }
-}
-
-/* line 61, src/styles/utilities/_text.scss */
-.text-lowercase {
-  text-transform: lowercase !important;
-}
-
-/* line 65, src/styles/utilities/_text.scss */
-.text-uppercase {
-  text-transform: uppercase !important;
-}
-
-/* line 69, src/styles/utilities/_text.scss */
-.text-capitalize {
-  text-transform: capitalize !important;
-}
-
-/* line 78, src/styles/utilities/_text.scss */
-.font-weight-normal {
-  font-weight: normal;
-}
-
-/* line 82, src/styles/utilities/_text.scss */
-.font-weight-bold {
-  font-weight: bold;
-}
-
-/* line 86, src/styles/utilities/_text.scss */
-.font-italic {
-  font-style: italic;
-}
-
-/* line 94, src/styles/utilities/_text.scss */
-.text-hide {
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
-}
-
 /* line 3, src/styles/utilities/_shadows.scss */
 .shadow-1 {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
@@ -43123,44 +42969,6 @@ a.text-yahoo:focus, a.text-yahoo:hover {
 /* line 20, src/styles/utilities/_shadows.scss */
 .shadow-right-1 {
   box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1) !important;
-}
-
-/* line 24, src/styles/utilities/_shadows.scss */
-.shadow,
-.shadow-2 {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-}
-
-/* line 29, src/styles/utilities/_shadows.scss */
-.shadow-top,
-.shadow-top-2 {
-  box-shadow: 0 -0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-}
-
-/* line 34, src/styles/utilities/_shadows.scss */
-.shadow-3 {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-}
-
-/* line 38, src/styles/utilities/_shadows.scss */
-.shadow-top-3 {
-  box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-}
-
-/* line 42, src/styles/utilities/_shadows.scss */
-.shadow-0,
-.shadow-none {
-  box-shadow: none !important;
-}
-
-/* line 3, src/styles/utilities/_sizing.scss */
-.min-h-100 {
-  min-height: 100% !important;
-}
-
-/* line 7, src/styles/utilities/_sizing.scss */
-.min-w-100 {
-  min-width: 100% !important;
 }
 
 /**
@@ -43848,7 +43656,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   background-color: $input-disabled-solid-color;
 }
 */
-/* line 2, src/styles/plus/02-components/_tabs.scss */
+/* line 1, src/styles/plus/02-components/_tabs.scss */
 .nav-scroll {
   overflow: hidden;
   overflow-x: auto;
@@ -43857,7 +43665,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   -ms-overflow-style: none;
 }
 
-/* line 12, src/styles/plus/02-components/_tabs.scss */
+/* line 11, src/styles/plus/02-components/_tabs.scss */
 .nav-scroll::-webkit-scrollbar {
   display: none;
   background: transparent;
@@ -43865,7 +43673,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   width: 0;
 }
 
-/* line 24, src/styles/plus/02-components/_tabs.scss */
+/* line 23, src/styles/plus/02-components/_tabs.scss */
 .nav-outline {
   /*
   .nav-item:not(.show) .nav-link:not(.active) {
@@ -43874,20 +43682,20 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   */
 }
 
-/* line 25, src/styles/plus/02-components/_tabs.scss */
+/* line 24, src/styles/plus/02-components/_tabs.scss */
 .nav-outline:not(.nav) {
   display: inline-block;
   min-width: 100%;
   vertical-align: bottom;
 }
 
-/* line 31, src/styles/plus/02-components/_tabs.scss */
+/* line 30, src/styles/plus/02-components/_tabs.scss */
 .nav-outline.nav,
 .nav-outline .nav {
   border-bottom: 0;
 }
 
-/* line 46, src/styles/plus/02-components/_tabs.scss */
+/* line 45, src/styles/plus/02-components/_tabs.scss */
 .nav-outline .nav-link {
   position: relative;
   z-index: 1;
@@ -43896,19 +43704,19 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 53, src/styles/plus/02-components/_tabs.scss */
+/* line 52, src/styles/plus/02-components/_tabs.scss */
 .nav-outline .nav-link:focus, .nav-outline .nav-link:hover {
   border-color: transparent;
   color: rgba(0, 0, 0, 0.7);
 }
 
-/* line 60, src/styles/plus/02-components/_tabs.scss */
+/* line 59, src/styles/plus/02-components/_tabs.scss */
 .nav-outline .nav-link:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
-/* line 65, src/styles/plus/02-components/_tabs.scss */
+/* line 64, src/styles/plus/02-components/_tabs.scss */
 .nav-outline .nav-link.active {
   background-color: transparent;
   border-color: transparent;
@@ -43916,39 +43724,39 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   font-weight: 600;
 }
 
-/* line 71, src/styles/plus/02-components/_tabs.scss */
+/* line 70, src/styles/plus/02-components/_tabs.scss */
 .nav-outline .nav-link.active:focus, .nav-outline .nav-link.active:hover {
   background-color: transparent;
   border-color: transparent;
 }
 
-/* line 78, src/styles/plus/02-components/_tabs.scss */
+/* line 77, src/styles/plus/02-components/_tabs.scss */
 .nav-outline .nav-link:not(.active) {
   border-color: transparent !important;
 }
 
-/* line 82, src/styles/plus/02-components/_tabs.scss */
+/* line 81, src/styles/plus/02-components/_tabs.scss */
 .nav-outline .nav-link.disabled {
   color: rgba(33, 33, 33, 0.4);
 }
 
-/* line 87, src/styles/plus/02-components/_tabs.scss */
+/* line 86, src/styles/plus/02-components/_tabs.scss */
 .nav-outline .nav-item.show .nav-link {
   background-color: transparent;
   font-weight: 600;
 }
 
-/* line 91, src/styles/plus/02-components/_tabs.scss */
+/* line 90, src/styles/plus/02-components/_tabs.scss */
 .nav-outline .nav-item.show .nav-link:focus, .nav-outline .nav-item.show .nav-link:hover {
   background-color: transparent;
 }
 
-/* line 97, src/styles/plus/02-components/_tabs.scss */
+/* line 96, src/styles/plus/02-components/_tabs.scss */
 .nav-outline.nav-outline-animated .nav-link {
   border-color: transparent !important;
 }
 
-/* line 107, src/styles/plus/02-components/_tabs.scss */
+/* line 106, src/styles/plus/02-components/_tabs.scss */
 .nav-outline > .nav + .nav-progress,
 .nav-outline + .nav-progress {
   border-radius: 0;
@@ -43958,20 +43766,23 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   width: 100%;
 }
 
-/* line 115, src/styles/plus/02-components/_tabs.scss */
+/* line 114, src/styles/plus/02-components/_tabs.scss */
 .nav-outline > .nav + .nav-progress .progress-bar,
 .nav-outline + .nav-progress .progress-bar {
   position: relative;
   transition: none;
 }
 
-/* line 120, src/styles/plus/02-components/_tabs.scss */
+/* line 119, src/styles/plus/02-components/_tabs.scss */
 .nav-outline > .nav + .nav-progress.unanimated .progress-bar,
 .nav-outline + .nav-progress.unanimated .progress-bar {
   transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
 }
 
-/* line 4, src/styles/plus/02-components/_sidenav.scss */
+/* ==========================================================================
+  [MATERIALIZECSS SIDENAV]
+============================================================================= */
+/* line 5, src/styles/plus/02-components/_sidenav.scss */
 .sidenav-overlay {
   display: none;
   position: fixed;
@@ -43985,7 +43796,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   will-change: opacity;
 }
 
-/* line 18, src/styles/plus/02-components/_sidenav.scss */
+/* line 19, src/styles/plus/02-components/_sidenav.scss */
 .drag-target {
   position: fixed;
   top: 0;
@@ -43994,7 +43805,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   width: 10px;
 }
 
-/* line 26, src/styles/plus/02-components/_sidenav.scss */
+/* line 27, src/styles/plus/02-components/_sidenav.scss */
 .sidenav {
   position: fixed;
   left: 0;
@@ -44021,13 +43832,13 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   */
 }
 
-/* line 50, src/styles/plus/02-components/_sidenav.scss */
+/* line 51, src/styles/plus/02-components/_sidenav.scss */
 .sidenav .sidenav-container {
   position: relative;
   min-height: 100%;
 }
 
-/* line 64, src/styles/plus/02-components/_sidenav.scss */
+/* line 65, src/styles/plus/02-components/_sidenav.scss */
 .sidenav-fixed {
   position: fixed;
   top: 0;
@@ -44044,13 +43855,13 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
 }
 
 @media (min-width: 768px) {
-  /* line 78, src/styles/plus/02-components/_sidenav.scss */
+  /* line 79, src/styles/plus/02-components/_sidenav.scss */
   .sidenav-fixed {
     transform: translateX(0) !important;
   }
 }
 
-/* line 84, src/styles/plus/02-components/_sidenav.scss */
+/* line 85, src/styles/plus/02-components/_sidenav.scss */
 .sidenav.right-aligned {
   left: auto;
   right: 0;
@@ -44220,8 +44031,8 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
 }
 */
 /* ==========================================================================
-   Sizing
-   ========================================================================== */
+  Sizing
+============================================================================= */
 /* line 5, src/styles/plus/02-components/_navbar.scss */
 .navbar-lg {
   font-size: 1.25rem;
@@ -44257,8 +44068,8 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
 }
 
 /* ==========================================================================
-   Scrolling
-   ========================================================================== */
+  Scrolling
+============================================================================= */
 /* line 38, src/styles/plus/02-components/_navbar.scss */
 .navbar-nav-scroll {
   height: 2.7rem;
@@ -44273,19 +44084,19 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 6, src/styles/plus/02-components/_pagination.scss */
+/* line 3, src/styles/plus/02-components/_pagination.scss */
 .pagination.pagination-circle .page-link {
   border-radius: 50%;
   line-height: 1;
   margin: 0 .25rem;
 }
 
-/* line 14, src/styles/plus/02-components/_pagination.scss */
+/* line 11, src/styles/plus/02-components/_pagination.scss */
 .pagination.pagination-borderless .page-link {
   border: 0;
 }
 
-/* line 19, src/styles/plus/02-components/_pagination.scss */
+/* line 16, src/styles/plus/02-components/_pagination.scss */
 .pagination.pagination-borderless .page-item.active .page-link {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
