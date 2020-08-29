@@ -12,24 +12,24 @@ Include CDN versions of compiled code to your project:
 ### w/ semantic versioning
 Get a specific version:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rescheme/reschemify@0.1.0/dist/css/reschemify.min.css" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/gh/rescheme/reschemify@0.1.0/dist/js/reschemify.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rescheme/reschemify@1.0.0/dist/css/reschemify.min.css" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/gh/rescheme/reschemify@1.0.0/dist/js/reschemify.min.js" crossorigin="anonymous"></script>
 ```
 
 Get patch fixes within a minor version:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rescheme/reschemify@0.1/dist/css/reschemify.min.css" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/gh/rescheme/reschemify@0.1/dist/js/reschemify.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rescheme/reschemify@1.0/dist/css/reschemify.min.css" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/gh/rescheme/reschemify@1.0/dist/js/reschemify.min.js" crossorigin="anonymous"></script>
 ```
 
 Get minor updates and patch fixes within a major version:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rescheme/reschemify@0/dist/css/reschemify.min.css" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/gh/rescheme/reschemify@0/dist/js/reschemify.min.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rescheme/reschemify@1/dist/css/reschemify.min.css" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/gh/rescheme/reschemify@1/dist/js/reschemify.min.js" crossorigin="anonymous"></script>
 ```
 
 
-## Bundled Plugins for Core
+## Approved Plugins for Core
 
 | Utilities                         | Version       |
 | --------------------------------- | -------------:|
