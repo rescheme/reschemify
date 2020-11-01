@@ -458,6 +458,7 @@ module.exports = plugin(function({ addUtilities, e, theme, variants }) {
       inset: {
         '1/2' : '50%',
         'full': '100%',
+        '-9999px': '-9999px',
       },
       opacity: {
         '05': '0.05',

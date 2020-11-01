@@ -2,7 +2,7 @@
   "name": "reschemify",
   "displayName": "Reschemify",
   "description": "Rescheme's Tailwind Components",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "homepage": "./",
   "author": "Rescheme Team",
@@ -33,7 +33,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.3",
     "sass": "^1.26.11",
-    "tailwindcss": "^1.8.10"
+    "tailwindcss": "^1.9.6"
   },
   "devDependencies": {
     "@lodder/grunt-postcss": "^3.0.0",
