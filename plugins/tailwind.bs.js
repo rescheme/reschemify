@@ -430,26 +430,45 @@ module.exports = plugin(function({ addUtilities, e, theme, variants }) {
         };
       },
       fontFamily: {
-        'base'                : ['Rescheme Sans', 'Manrope', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-        'comics'              : ['Bangers', 'cursive'],
-        'cursive'             : ['Cookie', 'cursive'],
-        'display'             : ['DM Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-        'mono'                : ['Roboto Mono', 'source-code-pro', 'Menlo', 'Monaco', 'Consolas', 'Courier New', 'monospace'],
-        'rounded'             : ['M PLUS Rounded 1c', 'Calibri', 'Candara', 'Segoe', 'Segoe UI', 'Optima', 'Arial', 'sans-serif'],
-        'slab'                : ['Roboto Slab', 'Lucida', 'Georgia', 'serif'],
+        'base'                   : ['"Rescheme Sans"', 'Manrope', 'Inter', 'Roboto', '"Segoe UI"', '"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+        'comics'                 : ['Bangers', 'cursive'],
+        'cursive'                : ['Cookie', 'cursive'],
+        'display'                : ['"DM Sans"', '"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+        // 'mono'                   : ['source-code-pro', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
+        'rounded'                : ['Quicksand', 'Calibri', 'Candara', 'Segoe', 'Optima', 'Arial', 'sans-serif'],
+        'sans'                   : ['Roboto', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
+        'serif'                  : ['"Roboto Slab"', 'Lucida', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
 
         // Font Stacks
-        'stack-bangers'       : ['Bangers', 'cursive'],
-        'stack-cookie'        : ['Cookie', 'cursive'],
-        'stack-dm-sans'       : ['DM Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-        'stack-inter'         : ['Inter', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-        'stack-manrope'       : ['Manrope', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-        'stack-metropolis'    : ['Metropolis', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-        'stack-mplus-rounded' : ['M PLUS Rounded 1c', 'Calibri', 'Candara', 'Segoe', 'Segoe UI', 'Optima', 'Arial', 'sans-serif'],
-        'stack-rescheme'      : ['Rescheme Sans', 'Manrope', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-        'stack-roboto'        : ['Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-        'stack-roboto-mono'   : ['Roboto Mono', 'source-code-pro', 'Menlo', 'Monaco', 'Consolas', 'Courier New', 'monospace'],
-        'stack-roboto-slab'   : ['Roboto Slab', 'Lucida', 'Georgia', 'serif'],
+        //------------------------------
+        // Sans
+        'stack-inter'               : ['Inter', '"Segoe UI"', '"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+        // 'stack-kumbh-sans'       : ['Kumbh Sans', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        'stack-manrope'             : ['Manrope', '"Segoe UI"', '"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+        // 'stack-metropolis'       : ['Metropolis', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        // 'stack-roboto'           : ['Roboto', '"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+        // 'stack-red-hat-display'  : ['Red Hat Display', 'Manrope', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        'stack-rescheme'            : ['"Rescheme Sans"', 'Manrope', '"Segoe UI"', '"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+
+        // Display
+        // 'stack-dm-sans'          : ['DM Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        // 'stack-gilroy-light'     : ['Gilroy-Light', 'Manrope', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+        // 'stack-gilroy-extrabold' : ['Gilroy-ExtraBold', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+
+        // Rounded
+        // 'stack-mplus-rounded'    : ['"M PLUS Rounded 1c"', 'Calibri', 'Candara', 'Segoe', 'Segoe UI', 'Optima', 'Arial', 'sans-serif'],
+        'stack-quicksand'           : ['Quicksand', 'Calibri', 'Candara', 'Segoe', 'Optima', 'Arial', 'sans-serif'],
+
+        // Mono
+        // 'stack-roboto-mono'      : ['Roboto Mono', 'source-code-pro', 'Menlo', 'Monaco', 'Consolas', 'Courier New', 'monospace'],
+
+        // Slabs
+        // 'stack-bitter'           : ['Bitter', 'Roboto Slab', 'Lucida', 'Georgia', 'serif'],
+        // 'stack-roboto-slab'      : ['Roboto Slab', 'Lucida', 'Georgia', 'serif'],
+
+        // Handwriting
+        // 'stack-bangers'          : ['Bangers', 'cursive'],
+        // 'stack-cookie'           : ['Cookie', 'cursive'],
       },
       fontSize: {
         '7xl': '4.5rem',
