@@ -1,0 +1,49 @@
+/**
+ *================================================================================
+ * Pagination
+ *================================================================================
+ */
+
+.pagination {
+  @apply flex pl-0 list-none;
+}
+
+.page-link {
+  @apply relative block no-underline border py-1 px-3;
+}
+
+.active > .page-link,
+.page-link.active {
+  @apply text-white bg-blue border border-blue z-1;
+}
+
+.disabled > .page-link,
+.page-link.disabled {
+  @apply text-gray-700 pointer-events-none bg-white opacity-75;
+}
+
+.page-link:focus {
+  @apply outline-none ring ring-opacity-50 z-1;
+}
+
+
+/**
+ * Borderless
+ */
+
+.pagination-borderless .page-link {
+  @apply border-0 rounded;
+}
+
+.pagination-borderless .active > .page-link {
+  @apply shadow;
+}
+
+
+/**
+ * Circle
+ */
+
+.pagination-circle .page-link {
+  @apply rounded-full mx-1;
+}

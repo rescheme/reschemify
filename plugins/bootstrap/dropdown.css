@@ -1,0 +1,75 @@
+/**
+ *================================================================================
+ * Dropdown
+ *================================================================================
+ */
+
+.dropdown,
+.dropleft,
+.dropright,
+.dropup {
+  @apply relative;
+}
+
+.dropdown-menu {
+  /* background-clip: padding-box; */
+  min-width: 10rem;
+  @apply absolute top-full left-0 z-1000 hidden py-2 mt-1 text-left list-none bg-white border border-black border-opacity-25 rounded;
+}
+
+.dropup .dropdown-menu {
+  @apply top-auto bottom-full mt-0 mb-1;
+}
+
+.dropright .dropdown-menu {
+  @apply top-0 right-auto left-full mt-0 ml-1;
+}
+
+.dropleft .dropdown-menu {
+  @apply top-0 right-full left-auto mt-0 mr-1;
+}
+
+.dropdown-menu.show {
+  @apply block;
+}
+
+
+/**
+ * Dropdown item
+ */
+
+.dropdown-item {
+  @apply block py-1 px-4;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  @apply bg-gray-100;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  @apply text-white bg-blue;
+}
+
+/*
+@responsive {
+  dropdown-menu-right {
+    @apply right-0 left-auto;
+  }
+}
+*/
+
+
+/**
+ * Placement (Popper.js)
+ *
+ * When enabled Popper.js, reset basic dropdown position
+ * stylelint-disable-next-line no-duplicate-selectors
+ */
+.dropdown-menu[x-placement^=bottom],
+.dropdown-menu[x-placement^=left],
+.dropdown-menu[x-placement^=right],
+.dropdown-menu[x-placement^=top] {
+  @apply right-auto bottom-auto;
+}

@@ -1,0 +1,19 @@
+/**
+ *================================================================================
+ * Toasts
+ *================================================================================
+ */
+
+.toast {
+  @apply max-w-sm overflow-hidden text-sm rounded bg-white bg-opacity-75 border border-black border-opacity-10 shadow opacity-0;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.toast.show {
+  @apply block opacity-100;
+}
+
+.toast:not(:last-child) {
+  @apply mb-3;
+}
