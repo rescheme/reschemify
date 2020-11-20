@@ -1,0 +1,9 @@
+/**
+ *================================================================================
+ * Card
+ *================================================================================
+ */
+
+.card {
+  @apply relative flex flex-col min-w-0 break-words bg-white border border-black border-opacity-10 rounded;
+}

@@ -1,0 +1,95 @@
+/**
+ *================================================================================
+ * Navbar
+ *================================================================================
+ */
+
+.navbar {
+  @apply flex flex-wrap items-center justify-between relative;
+}
+
+.navbar-brand {
+  @apply mr-4 text-xl no-underline whitespace-nowrap;
+}
+
+
+/**
+ * Navbar Collapse
+ */
+
+.navbar-collapse {
+  @apply items-center w-full;
+}
+
+
+/**
+ * Navbar Nav
+ */
+
+.navbar-nav {
+  @apply flex flex-col pl-0 list-none;
+}
+
+.navbar-nav .nav-link {
+  @apply px-2;
+}
+
+
+/**
+ * Navbar Toggler
+ */
+
+.navbar-toggler {
+  @apply py-1 px-3 text-xl rounded border border-transparent;
+}
+
+.navbar-toggler:focus {
+  @apply outline-none ring ring-opacity-50;
+}
+
+
+/**
+ *================================================================================
+ * Color schemes
+ *================================================================================
+ */
+
+/**
+ * Light
+ */
+
+.navbar-light .navbar-brand {
+  @apply text-black text-opacity-90;
+}
+
+.navbar-light .navbar-toggler {
+  @apply text-black text-opacity-50 border-black border-opacity-10;
+}
+
+.navbar-light .nav-link {
+  @apply text-black text-opacity-50;
+}
+
+.navbar-light .nav-link.active, .navbar-light .show > .nav-link {
+  @apply text-opacity-90;
+}
+
+
+/**
+ * Dark
+ */
+.navbar-dark .navbar-brand {
+  @apply text-white;
+}
+
+.navbar-dark .navbar-toggler {
+  @apply text-white text-opacity-50 border-white border-opacity-10;
+}
+
+.navbar-dark .nav-link {
+  @apply text-white text-opacity-50;
+}
+
+.navbar-dark .nav-link.active, .navbar-light .show > .nav-link {
+  @apply text-opacity-100;
+}

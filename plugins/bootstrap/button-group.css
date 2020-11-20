@@ -1,0 +1,51 @@
+/**
+ *================================================================================
+ * Button Group
+ *================================================================================
+ */
+
+.btn-group {
+  @apply inline-flex align-middle relative;
+}
+
+.btn-group > .btn {
+  @apply flex-auto;
+}
+
+.btn-group > .btn:not(:first-child) {
+  @apply rounded-l-none;
+  /* @apply -ml-px; */
+}
+
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+  @apply rounded-r-none;
+}
+
+.btn-group > .btn:focus {
+  @apply z-1;
+}
+
+/**
+ *================================================================================
+ * Vertical Variation
+ *================================================================================
+ */
+.btn-group-vertical {
+  @apply inline-flex flex-col items-start justify-center align-middle relative;
+}
+
+.btn-group-vertical > .btn {
+  @apply flex-auto w-full;
+}
+
+.btn-group-vertical > .btn:not(:first-child) {
+  @apply rounded-t-none -mt-px;
+}
+
+.btn-group-vertical > .btn:not(:last-child) {
+  @apply rounded-b-none;
+}
+
+.btn-group-vertical > .btn:focus {
+  @apply z-1;
+}

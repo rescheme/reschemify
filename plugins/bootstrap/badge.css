@@ -1,0 +1,13 @@
+/**
+ *================================================================================
+ * Badge
+ *================================================================================
+ */
+
+.badge {
+  @apply inline-block py-1 px-2 text-xs font-bold leading-none text-center whitespace-nowrap align-baseline rounded text-white bg-gray-300;
+}
+
+.badge:empty {
+  @apply hidden;
+}

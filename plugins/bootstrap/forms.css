@@ -1,0 +1,460 @@
+.form-group {
+  @apply relative;
+}
+
+.form-input {
+  @apply block w-full py-2 px-3 leading-normal border rounded appearance-none;
+}
+
+.form-input:focus {
+  @apply outline-none ring ring-opacity-50;
+}
+
+
+/**
+ * Sizing
+ */
+
+.form-input-lg {
+  @apply py-3 px-4 text-xl rounded-md;
+}
+
+.form-input-sm {
+  @apply py-1 px-2 text-sm rounded-sm;
+}
+
+
+/**
+ * Line
+ */
+
+.form-input-line {
+  @apply border-l-0 border-r-0 border-b border-gray-500 rounded-none px-0 transition duration-300;
+  border-top-color: transparent !important;
+}
+
+.form-input-line:focus {
+  box-shadow: 0 1px 0 0 rgba(0,0,0,.25);
+  @apply border-blue;
+}
+
+/**
+ * Outlined
+ */
+
+.form-input-outlined + label {
+  @apply absolute top-0 left-0 text-gray-300 border border-transparent rounded block leading-normal w-full py-2 px-3 pointer-events-none cursor-text transition-all duration-150 ease-in-out;
+}
+
+.form-input-outlined::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-input-outlined:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-input-outlined::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-input-outlined::-moz-placeholder {
+  color: transparent;
+}
+
+.form-input-outlined::placeholder {
+  color: transparent;
+}
+
+.form-input-outlined:not(:placeholder-shown) + label {
+  top: -6px;
+  left: 9px;
+  @apply bg-white inline-block leading-none py-0 px-1 w-auto text-xs;
+}
+
+/* Outlined Large */
+.form-input-outlined.form-input-lg + label {
+  @apply py-3 px-4 text-xl leading-normal;
+}
+
+.form-input-outlined.form-input-lg:not(:placeholder-shown) {
+  @apply py-3 px-4;
+}
+
+.form-input-outlined.form-input-lg:not(:placeholder-shown) + label {
+  top: -9px;
+  left: 13px;
+  @apply py-0 px-1 text-xs;
+}
+
+/* Outlined Small */
+.form-input-outlined.form-input-sm + label {
+  @apply py-1 px-2 text-sm;
+}
+
+.form-input-outlined.form-input-sm:not(:placeholder-shown) {
+  @apply py-1 px-2;
+}
+
+.form-input-outlined.form-input-sm:not(:placeholder-shown) + label {
+  top: -6px;
+  left: 6px;
+  font-size: .65rem;
+  @apply py-0 px-1;
+}
+
+
+/* Outlined Line */
+.form-input-outlined.form-input-line + label {
+  @apply px-0;
+}
+
+.form-input-outlined.form-input-line:focus + label,
+.form-input-outlined.form-input-line:not(:placeholder-shown) + label {
+  @apply px-0 left-0;
+}
+
+.form-input-outlined.form-input-line.form-input-lg + label,
+.form-input-outlined.form-input-line.form-input-lg:not(:placeholder-shown) {
+  @apply px-0;
+}
+
+.form-input-outlined.form-input-line.form-input-sm + label,
+.form-input-outlined.form-input-line.form-input-sm:not(:placeholder-shown) {
+  @apply px-0;
+}
+
+
+
+/**
+ * Filled
+ */
+
+.form-input-filled {
+  @apply pt-3 pb-2;
+}
+
+.form-input-filled + label {
+  @apply absolute top-0 left-0 text-gray-300 border border-transparent rounded block leading-normal w-full pt-3 pb-2 px-3 pointer-events-none cursor-text transition-all duration-150 ease-in-out;
+}
+
+.form-input-filled::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-input-filled:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-input-filled::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-input-filled::-moz-placeholder {
+  color: transparent;
+}
+
+.form-input-filled::placeholder {
+  color: transparent;
+}
+
+.form-input-filled:not(:placeholder-shown) {
+  @apply pt-4 pb-1;
+}
+
+.form-input-filled:not(:placeholder-shown) + label {
+  top: 5px;
+  left: 9px;
+  @apply bg-white inline-block leading-none py-0 px-1 w-auto text-xs;
+}
+
+/* Filled Large */
+.form-input-filled.form-input-lg {
+  @apply py-3;
+}
+
+.form-input-filled.form-input-lg + label {
+  @apply py-3 px-4 text-xl leading-normal;
+}
+
+.form-input-filled.form-input-lg:not(:placeholder-shown) {
+  @apply pt-5 pb-1 px-4;
+}
+
+.form-input-filled.form-input-lg:not(:placeholder-shown) + label {
+  top: 4px;
+  @apply left-0 py-0 px-4 text-xs bg-transparent;
+}
+
+/* Filled Small */
+.form-input-filled.form-input-sm {
+  @apply py-1;
+}
+
+.form-input-filled.form-input-sm + label {
+  @apply py-1 px-2 text-sm;
+}
+
+.form-input-filled.form-input-sm:not(:placeholder-shown) {
+  @apply py-1 px-2;
+}
+
+.form-input-filled.form-input-sm:not(:placeholder-shown) + label {
+  top: -6px;
+  left: 6px;
+  font-size: .65rem;
+  @apply py-0 px-1;
+}
+
+
+
+
+
+
+
+/**
+ *================================================================================
+ * Form Control
+ *================================================================================
+ */
+
+.form-control {
+  @apply block w-full py-2 px-3 leading-normal border rounded appearance-none;
+}
+
+.form-control:focus {
+  @apply outline-none ring ring-opacity-50;
+}
+
+
+/**
+ * Sizing
+ */
+
+.form-control-lg {
+  @apply py-3 px-4 text-xl rounded-md;
+}
+
+.form-control-sm {
+  @apply py-1 px-2 text-sm rounded-sm;
+}
+
+
+/**
+ * Line
+ */
+
+.form-control-line {
+  @apply border-l-0 border-t-0 border-r-0 border-b border-gray-500 rounded-none px-0 transition duration-300;
+}
+
+.form-control-line:focus {
+  box-shadow: 0 1px 0 0 rgba(0,0,0,.25);
+  @apply border-blue;
+}
+
+/**
+ * Readonly / Disabled
+ */
+
+.form-control:disabled,
+.form-control[readonly] {
+  @apply bg-gray-50 bg-opacity-100;
+}
+
+
+/**
+ *================================================================================
+ * Select
+ *================================================================================
+ */
+
+.form-select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-position: right .75rem center;
+  background-size: 16px 12px;
+  @apply block w-full appearance-none py-2 pl-3 pr-8 leading-normal border rounded bg-white bg-no-repeat;
+}
+
+.form-select:focus {
+  @apply outline-none ring ring-opacity-50;
+}
+
+
+/**
+ * Sizing
+ */
+
+.form-select-lg {
+  @apply py-3 pl-4 text-xl rounded-md;
+}
+
+.form-select-sm {
+  @apply py-1 pl-2 text-sm rounded-sm;
+}
+
+
+/**
+ * Select multiple
+ */
+
+.form-select[multiple],
+.form-select[size]:not([size="1"]) {
+  background-image: none;
+  @apply pr-3;
+}
+
+
+/**
+ *================================================================================
+ * Checks
+ *================================================================================
+ */
+
+.form-check {
+  @apply appearance-none bg-white border border-black border-opacity-25  h-5 w-5 align-middle text-blue;
+}
+
+.form-check:focus {
+  @apply border-current outline-none ring ring-opacity-50;
+}
+
+.form-check:checked {
+  @apply bg-current;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+.form-check:disabled {
+  @apply pointer-events-none bg-opacity-50;
+  -webkit-filter: none;
+          filter: none;
+}
+
+
+/**
+ * Checkbox
+ */
+
+.form-check[type=checkbox] {
+  @apply rounded;
+}
+
+
+/**
+ * Checkbox indeterminate
+ */
+
+.form-check[type=checkbox]:indeterminate {
+  @apply bg-blue border-blue;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
+}
+
+
+/**
+ * Radios
+ */
+
+.form-check[type=radio] {
+  @apply rounded-full;
+}
+
+.form-check[type=radio]:checked {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+
+
+
+/**
+ *================================================================================
+ * Form Field Variation
+ *================================================================================
+ */
+
+.form-control-outlined {
+  @apply relative;
+}
+
+.form-control-outlined input + label {
+  @apply absolute top-0 left-0 text-gray-300 border border-transparent rounded block leading-normal w-full py-2 px-3 pointer-events-none cursor-text;
+  transition: all .15s ease-in-out;
+}
+
+.form-control-outlined input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-control-outlined input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-control-outlined input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-control-outlined input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-control-outlined input::placeholder {
+  color: transparent;
+}
+
+.form-control-outlined input:not(:placeholder-shown) ~ label {
+  top: -6px;
+  left: 9px;
+  @apply bg-white inline-block leading-none py-0 px-1 w-auto text-xs;
+}
+
+/* Outlined Large */
+.form-control-outlined .form-control-lg + label {
+  @apply py-3 px-4 text-xl;
+}
+
+.form-control-outlined .form-control-lg:not(:placeholder-shown) {
+  @apply py-3 px-4;
+}
+
+.form-control-outlined .form-control-lg:not(:placeholder-shown) ~ .form-label {
+  top: -6px;
+  left: 13px;
+  @apply text-xs;
+}
+
+/* Outlined Small */
+.form-control-outlined .form-control-sm + label {
+  @apply py-1 px-2 text-sm;
+}
+
+.form-control-outlined .form-control-sm:not(:placeholder-shown) {
+  @apply py-1 px-2;
+}
+
+.form-control-outlined .form-control-sm:not(:placeholder-shown) ~ .form-label {
+  top: -6px;
+  left: 6px;
+  font-size: .65rem;
+  @apply py-0 px-1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
