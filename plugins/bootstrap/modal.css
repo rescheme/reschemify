@@ -4,25 +4,31 @@
  *================================================================================
  */
 
-.modal {
-  @apply fixed top-0 left-0 z-1050 hidden w-full h-full overflow-hidden outline-none;
-}
-
-.modal-dialog {
-  @apply relative flex items-center w-auto p-2 mx-auto pointer-events-none h-full;
-}
-
-.modal-content {
-  @apply relative flex flex-col w-full pointer-events-auto bg-white border border-black border-opacity-25 rounded outline-none;
-  /* background-clip: padding-box; */
-}
-
 .modal-open {
   @apply overflow-hidden;
 }
 
 .modal-open .modal {
   @apply overflow-x-hidden overflow-y-auto;
+}
+
+.modal {
+  @apply fixed top-0 left-0 z-1050 hidden w-full h-full overflow-hidden outline-none;
+}
+
+.modal-dialog {
+  @apply relative w-auto mx-auto p-2 pointer-events-none;
+}
+
+@screen md {
+  .modal-dialog {
+    @apply max-w-screen-sm px-4 py-7;
+  }
+}
+
+.modal-content {
+  @apply relative flex flex-col w-full pointer-events-auto bg-white border border-black border-opacity-25 rounded outline-none;
+  /* background-clip: padding-box; */
 }
 
 .modal-header {
@@ -43,26 +49,41 @@
 
 
 /**
+ * Scrollable
+ */
+
+.modal-dialog-scrollable {
+  @apply h-full;
+}
+
+.modal-dialog-scrollable .modal-content {
+  @apply max-h-full overflow-hidden;
+}
+
+.modal-dialog-scrollable .modal-body {
+  @apply overflow-y-auto;
+}
+
+@screen md {
+  .modal-dialog-scrollable {
+    @apply h-full my-0 py-7;
+  }
+}
+
+
+/**
+ * Vertically Centered
+ */
+.modal-dialog-centered {
+  @apply flex items-center min-h-full;
+}
+
+
+/**
  * Sizing
  */
 
 @responsive {
-  .modal-sm {
-    @apply max-w-screen-sm;
-  }
-
-  .modal-md {
-    @apply max-w-screen-md;
-  }
-
-  .modal-lg {
-    @apply max-w-screen-lg;
-  }
-
-  .modal-xl {
-    @apply max-w-screen-xl;
-  }
-
   .modal-fullscreen {
     @apply w-screen max-w-none h-full m-0 p-0;
   }
@@ -96,6 +117,12 @@
 
 .modal.fade .modal-dialog {
   @apply transition-transform duration-300 ease-out transform translate-x-0 -translate-y-12;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal.fade .modal-dialog {
+    @apply transition-none;
+  }
 }
 
 .modal.show .modal-dialog {
