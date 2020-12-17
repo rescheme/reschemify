@@ -88,13 +88,19 @@
     @apply h-full max-w-none m-0 p-0 w-screen;
   }
 
-  .modal-fullscreen .modal-content {
+  /*
+  .modal-fullscreen [class="modal-content"],
+  .modal-fullscreen [class^="modal-content "],
+  .modal-fullscreen [class*=" modal-content"] {
     @apply border-0 h-full rounded-none;
   }
 
-  .modal-fullscreen .modal-body {
+  .modal-fullscreen [class="modal-body"],
+  .modal-fullscreen [class^="modal-body "],
+  .modal-fullscreen [class*=" modal-body"] {
     @apply overflow-y-auto;
   }
+  */
 }
 
 
