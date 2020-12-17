@@ -13,11 +13,11 @@
 }
 
 .modal {
-  @apply fixed top-0 left-0 z-1050 hidden w-full h-full overflow-hidden outline-none;
+  @apply fixed top-0 left-0 z-1050 h-full hidden outline-none overflow-hidden w-full;
 }
 
 .modal-dialog {
-  @apply relative w-auto mx-auto p-2 pointer-events-none;
+  @apply relative mx-auto p-2 pointer-events-none w-auto;
 }
 
 @screen md {
@@ -27,12 +27,12 @@
 }
 
 .modal-content {
-  @apply relative flex flex-col w-full pointer-events-auto bg-white border border-black border-opacity-25 rounded outline-none;
+  @apply relative bg-white border border-black border-opacity-25 flex flex-col outline-none pointer-events-auto rounded w-full;
   /* background-clip: padding-box; */
 }
 
 .modal-header {
-  @apply flex flex-shrink-0 items-start justify-between p-4 border-b border-black border-opacity-10 rounded-t;
+  @apply border-b border-black border-opacity-10 flex flex-shrink-0 items-start justify-between p-4 rounded-t;
 }
 
 .modal-body {
@@ -40,11 +40,11 @@
 }
 
 .modal-footer {
-  @apply flex flex-wrap flex-shrink-0 items-center justify-end p-3 border-t border-black border-opacity-25 rounded-b;
+  @apply border-t border-black border-opacity-25 flex flex-wrap flex-shrink-0 items-center justify-end p-3 rounded-b;
 }
 
 .modal-scrollbar-measure {
-  @apply absolute h-12 w-12 overflow-scroll -top-9999px;
+  @apply absolute h-12 overflow-scroll -top-9999px w-12;
 }
 
 
@@ -85,11 +85,15 @@
 
 @responsive {
   .modal-fullscreen {
-    @apply w-screen max-w-none h-full m-0 p-0;
+    @apply h-full max-w-none m-0 p-0 w-screen;
   }
 
   .modal-fullscreen .modal-content {
-    @apply h-full border-0 rounded-none;
+    @apply border-0 h-full rounded-none;
+  }
+
+  .modal-fullscreen .modal-body {
+    @apply overflow-y-auto;
   }
 }
 
@@ -99,7 +103,7 @@
  */
 
 .modal-backdrop {
-  @apply fixed top-0 left-0 z-1040 w-screen h-screen bg-black;
+  @apply fixed top-0 left-0 z-1040 bg-black h-screen w-screen;
 }
 
 .modal-backdrop.fade {
@@ -116,7 +120,7 @@
  */
 
 .modal.fade .modal-dialog {
-  @apply transition-transform duration-300 ease-out transform translate-x-0 -translate-y-12;
+  @apply duration-300 ease-out transform transition-transform translate-x-0 -translate-y-12;
 }
 
 @media (prefers-reduced-motion: reduce) {
