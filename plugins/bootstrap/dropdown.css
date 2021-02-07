@@ -17,10 +17,11 @@
   @apply absolute top-full left-0 z-1000 hidden py-2 mt-1 text-left list-none bg-white border border-black border-opacity-25 rounded;
 }
 
+/*
 .dropdown-menu[style] {
-  /* background-clip: padding-box; */
   @apply right-auto !important;
 }
+*/
 
 .dropup .dropdown-menu {
   @apply top-auto bottom-full mt-0 mb-1;
@@ -60,7 +61,11 @@
 }
 
 @responsive {
-  .dropdown-menu.dropdown-menu-end {
+  .dropdown-menu-start {
+    @apply right-auto left-0 !important;
+  }
+
+  .dropdown-menu-end {
     @apply right-0 left-auto !important;
   }
 }
