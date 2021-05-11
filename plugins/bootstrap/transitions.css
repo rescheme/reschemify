@@ -1,21 +1,17 @@
-/**
- *================================================================================
- * Transitions
- *================================================================================
- */
+@layer utilities {
+  .fade {
+    @apply transition-opacity duration-150 ease-linear;
+  }
 
-.fade {
-  @apply transition-opacity duration-150 ease-linear;
-}
+  .fade:not(.show) {
+    @apply opacity-0;
+  }
 
-.fade:not(.show) {
-  @apply opacity-0;
-}
+  .collapse:not(.show) {
+    @apply hidden;
+  }
 
-.collapse:not(.show) {
-  @apply hidden;
-}
-
-.collapsing {
-  @apply h-0 overflow-hidden transition-height duration-300 ease-in-out;
+  .collapsing {
+    @apply h-0 overflow-hidden transition-height duration-300 ease-in-out;
+  }
 }

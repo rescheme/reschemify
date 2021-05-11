@@ -1,27 +1,28 @@
-const plugin = require('tailwindcss/plugin')
-const { fontFamily, fontSize } = require('tailwindcss/defaultTheme')
-const colors = require('tailwindcss/colors')
+const plugin = require('tailwindcss/plugin');
+const colors = require('tailwindcss/colors');
+// const { fontFamily, fontSize } = require('tailwindcss/defaultTheme')
 
 module.exports = plugin(function({ addUtilities, e, theme, variants }) {
   // ...
 }, {
   // prefix: 'rsx-',
   theme: {
-    screens: {
-      'sm': '640px',
-      // => @media (min-width: 576px) { ... }
+    // screens: {
+    //   'sm': '640px',
+    //   // => @media (min-width: 576px) { ... }
 
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
+    //   'md': '768px',
+    //   // => @media (min-width: 768px) { ... }
 
-      'lg': '1024px',
-      // => @media (min-width: 992px) { ... }
+    //   'lg': '1024px',
+    //   // => @media (min-width: 992px) { ... }
 
-      'xl': '1280px',
-      // => @media (min-width: 1200px) { ... } // Bootstrap
+    //   'xl': '1280px',
+    //   // => @media (min-width: 1200px) { ... } // Bootstrap
 
-      '2xl': '1536px',
-    },
+    //   '2xl': '1536px',
+    //   // => @media (min-width: 1536px) { ... }
+    // },
     colors: {
       transparent   : 'transparent',
       current       : 'currentColor',

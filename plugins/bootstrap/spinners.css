@@ -1,44 +1,38 @@
-/**
- *================================================================================
- * Spinners
- *================================================================================
- */
-
-/**
- *Rotating border
- */
-
-.spinner-border {
-  @apply inline-block w-8 h-8 align-text-bottom rounded-full animate-spin border-4 border-current;
-  border-right-color: transparent;
-  animation-duration: 0.75s;
-}
-
-.spinner-border-sm {
-  @apply w-4 h-4 border-2;
-}
-
-
-/**
- *Growing circle
- */
-
-@keyframes spinner-grow {
-  0% {
-    transform: scale(0);
+@layer components {
+  /**
+   * Rotating border
+   */
+  .spinner-border {
+    @apply inline-block w-8 h-8 align-text-bottom rounded-full animate-spin border-4 border-current;
+    border-right-color: transparent;
+    animation-duration: 0.75s;
   }
-  50% {
-    opacity: 1;
-    transform: none;
+
+  .spinner-border-sm {
+    @apply w-4 h-4 border-2;
   }
-}
 
-.spinner-grow {
-  @apply inline-block w-8 h-8 align-text-bottom rounded-full opacity-0 bg-current;
-  -webkit-animation: spinner-grow 0.75s linear infinite;
-          animation: spinner-grow 0.75s linear infinite;
-}
 
-.spinner-grow-sm {
-  @apply w-4 h-4;
+  /**
+   * Growing circle
+   */
+  @keyframes spinner-grow {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .spinner-grow {
+    @apply inline-block w-8 h-8 align-text-bottom rounded-full opacity-0 bg-current;
+    -webkit-animation: spinner-grow 0.75s linear infinite;
+            animation: spinner-grow 0.75s linear infinite;
+  }
+
+  .spinner-grow-sm {
+    @apply w-4 h-4;
+  }
 }

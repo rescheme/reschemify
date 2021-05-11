@@ -1,10 +1,5 @@
-/**
- *================================================================================
- * Alert
- *================================================================================
- */
-
-.alert {
-  @apply relative border border-black border-opacity-10 rounded text-black text-opacity-75 p-4;
+@layer components {
+  .alert {
+    @apply relative border border-black border-opacity-10 rounded text-black text-opacity-75 p-4;
+  }
 }
-
