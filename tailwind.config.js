@@ -2,10 +2,9 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   // prefix: 'rsx-',
+  // mode: 'jit',
   purge: [
-    // './src/**/*.html',
-    // './src/**/*.vue',
-    // './src/**/*.jsx',
+    './.storybook/**/*.{html,js,jsx,ts,tsx,vue}'
   ],
   darkMode: false, // or 'media' or 'class'
   important: true,

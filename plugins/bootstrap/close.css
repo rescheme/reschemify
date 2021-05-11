@@ -1,36 +1,32 @@
-/**
- *================================================================================
- * Close
- *================================================================================
- */
+@layer components {
+  .close {
+    @apply text-2xl font-bold leading-none text-black opacity-50;
+    text-shadow: 0 1px 0 #fff;
+  }
 
-.close {
-  @apply text-2xl font-bold leading-none text-black opacity-50;
-  text-shadow: 0 1px 0 #fff;
-}
+  .close:hover {
+    @apply text-black no-underline;
+  }
 
-.close:hover {
-  @apply text-black no-underline;
-}
+  .close:hover,
+  .close:focus {
+    @apply opacity-75;
+  }
 
-.close:hover,
-.close:focus {
-  @apply opacity-75;
-}
+  .close:disabled,
+  .close.disabled {
+    @apply pointer-events-none;
+  }
 
-.close:disabled,
-.close.disabled {
-  @apply pointer-events-none;
-}
+  /**
+   * Additional properties for button version
+   * iOS requires the button element instead of an anchor tag.
+   * If you want the anchor version, it requires `href="#"`.
+   * See https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
+   */
 
-/**
- * Additional properties for button version
- * iOS requires the button element instead of an anchor tag.
- * If you want the anchor version, it requires `href="#"`.
- * See https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
- */
-
-/* stylelint-disable-next-line selector-no-qualifying-type */
-button.close {
-  @apply p-0 bg-transparent border-0;
+  /* stylelint-disable-next-line selector-no-qualifying-type */
+  button.close {
+    @apply p-0 bg-transparent border-0;
+  }
 }
