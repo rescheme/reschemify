@@ -1,5 +1,6 @@
 const plugin = require('tailwindcss/plugin');
 const colors = require('tailwindcss/colors');
+// const selectorParser = require('postcss-selector-parser');
 // const { fontFamily, fontSize } = require('tailwindcss/defaultTheme')
 
 module.exports = plugin(function({ addUtilities, e, theme, variants }) {
@@ -10,16 +11,12 @@ module.exports = plugin(function({ addUtilities, e, theme, variants }) {
     // screens: {
     //   'sm': '640px',
     //   // => @media (min-width: 576px) { ... }
-
     //   'md': '768px',
     //   // => @media (min-width: 768px) { ... }
-
     //   'lg': '1024px',
     //   // => @media (min-width: 992px) { ... }
-
     //   'xl': '1280px',
     //   // => @media (min-width: 1200px) { ... } // Bootstrap
-
     //   '2xl': '1536px',
     //   // => @media (min-width: 1536px) { ... }
     // },
@@ -190,6 +187,9 @@ module.exports = plugin(function({ addUtilities, e, theme, variants }) {
       margin: {
         'full': '100%',
       },
+      minWidth: {
+        '40': '10rem',
+      },
       padding: {
         'full': '100%',
       },
@@ -204,13 +204,14 @@ module.exports = plugin(function({ addUtilities, e, theme, variants }) {
       zIndex: {
         '1'   : 1,
         '2'   : 2,
-        '1000': 1000,
-        '1020': 1020,
-        '1030': 1030,
-        '1040': 1040,
-        '1050': 1050,
-        '1060': 1060,
-        '1070': 1070,
+        '1000': 1000, // Dropdown
+        '1020': 1020, // Sticky
+        '1030': 1030, // Fixed
+        '1040': 1040, // Modal Backdrop
+        '1050': 1050, // Offcanvas
+        '1060': 1060, // Modal
+        '1070': 1070, // Popover
+        '1080': 1080, // Tooltip
       }
     },
   },
@@ -221,5 +222,10 @@ module.exports = plugin(function({ addUtilities, e, theme, variants }) {
     textColor  : ['responsive', 'hover', 'focus', 'group-hover', 'group-focus'],
     zIndex     : ['responsive', 'hover', 'focus'],
   },
+  // plugins: [
+  //   plugin(function({ addVariant }) {
+
+  //   })
+  // ]
 })
 

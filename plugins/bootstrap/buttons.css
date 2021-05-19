@@ -1,8 +1,8 @@
  @layer components {
   .btn {
-    @apply inline-block text-center py-2 px-4 rounded leading-normal align-middle select-none bg-gray-50 border border-transparent text-gray-800;
+    @apply inline-block text-base text-center align-middle select-none py-2 px-4 rounded;
+    @apply text-gray-800 bg-gray-50 border border-transparent;
   }
-
   .btn:focus {
     @apply outline-none ring ring-opacity-50;
   }
@@ -18,11 +18,14 @@
   .btn-lg {
     @apply py-2 px-4 text-xl rounded-md;
   }
-
   .btn-sm {
     @apply py-1 px-2 text-sm rounded-sm;
   }
 
+
+  /**
+   * State
+   */
   .btn:disabled {
     @apply opacity-50 pointer-events-none;
   }

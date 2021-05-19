@@ -1,0 +1,83 @@
+@layer components {
+  .nav {
+    @apply flex flex-wrap pl-0 list-none;
+  }
+
+  .nav-link {
+    @apply block py-2 px-4 no-underline;
+  }
+
+  .nav .nav-link.active,
+  .nav .show > .nav-link {
+    @apply font-bold;
+  }
+
+
+  /**
+  *================================================================================
+  * Nav Pills
+  *================================================================================
+  */
+
+  .nav-pills .nav-link {
+    @apply rounded;
+  }
+
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    @apply font-normal text-white bg-gray-400;
+  }
+
+
+  /**
+  *================================================================================
+  * Nav Tabs
+  *================================================================================
+  */
+
+  .nav-tabs {
+    @apply border-b;
+  }
+
+  .nav-tabs .nav-link {
+    @apply -mb-px border-l border-t border-r border-b-0 border-transparent rounded-t;
+  }
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    @apply bg-white border-gray-300;
+  }
+
+
+  /**
+  *================================================================================
+  * Nav Outline
+  *================================================================================
+  */
+
+  .nav-outline .nav-link {
+    @apply border-b-4 border-transparent;
+    @apply border-opacity-0 !important;
+  }
+
+  .nav-outline .nav-item.show .nav-link,
+  .nav-outline .nav-link.active {
+    @apply border-gray-300;
+    @apply border-opacity-100 !important;
+  }
+
+
+  /**
+  *================================================================================
+  * Tab Content
+  *================================================================================
+  */
+
+  .tab-pane {
+    @apply hidden;
+  }
+
+  .tab-pane.active {
+    @apply block;
+  }
+}

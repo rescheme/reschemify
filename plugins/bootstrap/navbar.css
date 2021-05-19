@@ -1,6 +1,6 @@
 @layer components {
   .navbar {
-    @apply flex flex-wrap items-center justify-between relative;
+    @apply relative flex flex-wrap items-center justify-between;
   }
 
   .navbar-brand {
@@ -24,11 +24,6 @@
   .navbar-nav {
     @apply flex flex-col pl-0 list-none;
   }
-
-  .navbar-nav .nav-link {
-    @apply px-2;
-  }
-
 
   /**
   * Navbar Toggler

@@ -1,5 +1,5 @@
 @layer components {
   .alert {
-    @apply relative border border-black border-opacity-10 rounded text-black text-opacity-75 p-4;
+    @apply relative border border-black border-opacity-10 rounded text-black text-opacity-75 p-4 mb-4;
   }
 }

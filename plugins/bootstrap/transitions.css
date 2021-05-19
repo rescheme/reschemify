@@ -1,4 +1,4 @@
-@layer utilities {
+@layer components {
   .fade {
     @apply transition-opacity duration-150 ease-linear;
   }

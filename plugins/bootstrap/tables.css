@@ -13,22 +13,19 @@
   .table {
     @apply border-collapse w-full align-top;
   }
-
   .table th {
     @apply text-left;
   }
-
   .table > thead {
     @apply align-bottom;
   }
-
   .table > :not(caption) > * > * {
     @apply p-2 border-b;
   }
 
+
   /**
    * Sizing
-   *
    */
   @responsive {
     .table-sm > :not(caption) > * > * {
@@ -36,9 +33,9 @@
     }
   }
 
+
   /**
    * Table Striped
-   *
    */
   .table-striped > tbody > tr:nth-of-type(odd) {
     @apply bg-gray-200;
@@ -47,7 +44,6 @@
 
   /**
    * Table Hover
-   *
    */
   .table-hover > tbody > tr:hover {
     @apply bg-gray-300;
@@ -56,12 +52,10 @@
 
   /**
    * Bordered tables
-   *
    */
   .table-bordered > :not(caption) > * {
     @apply border-t border-b;
   }
-
   .table-bordered > :not(caption) > * > * {
     @apply border-l border-r;
   }
@@ -69,7 +63,6 @@
 
   /**
    * Borderless tables
-   *
    */
   .table-borderless > :not(caption) > * > * {
     @apply border-b-0;
@@ -78,7 +71,6 @@
 
   /**
    * Responsive tables
-   *
    */
   @responsive {
     .table-responsive {

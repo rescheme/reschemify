@@ -1,0 +1,145 @@
+@layer components {
+  .popover {
+    /* background-clip: padding-box; */
+    @apply absolute top-0 left-0 z-1060 block max-w-sm text-sm break-words bg-white border border-black border-opacity-25 rounded shadow-sm;
+  }
+
+  .popover .popover-arrow {
+    @apply absolute block h-2 w-4;
+    margin: 0 .3rem;
+  }
+
+  .popover .popover-arrow::before,
+  .popover .popover-arrow::after {
+    @apply absolute block border-transparent border-solid;
+    content: "";
+  }
+
+  /* Offset the popover to account for the popover arrow */
+  .popover-header {
+    @apply text-base mb-0 border-b border-black border-opacity-25 rounded-t py-2 px-4;
+  }
+
+  .popover-header:empty {
+    @apply hidden;
+  }
+
+  .popover-body {
+    @apply p-4;
+  }
+
+
+  /**
+  *================================================================================
+  * Placement
+  *================================================================================
+  */
+  .bs-popover-top {
+    margin-bottom: .5rem;
+  }
+
+  .bs-popover-top > .popover-arrow {
+    bottom: calc(-0.5rem - 1px);
+  }
+
+  .bs-popover-top > .popover-arrow::before {
+    @apply bottom-0;
+    border-width: .5rem .5rem 0;
+    border-top-color: rgba(0, 0, 0, 0.25);
+  }
+
+  .bs-popover-top > .popover-arrow::after {
+    bottom: 1px;
+    border-width: 0.5rem 0.5rem 0;
+    border-top-color: #FFFFFF;
+  }
+
+
+  .bs-popover-right {
+    @apply ml-2;
+  }
+
+  .bs-popover-right > .popover-arrow {
+    left: calc(-0.5rem - 1px);
+    margin: 0.3rem 0;
+    @apply w-2 h-4;
+  }
+
+  .bs-popover-right > .popover-arrow::before {
+    @apply left-0;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    border-right-color: rgba(0, 0, 0, 0.25);
+  }
+
+  .bs-popover-right > .popover-arrow::befafterore {
+    left: 1px;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    border-right-color: #fff;
+  }
+
+
+  .bs-popover-bottom {
+    @apply mt-2;
+  }
+
+  .bs-popover-bottom > .popover-arrow {
+    top: calc(-0.5rem - 1px);
+  }
+
+  .bs-popover-bottom > .popover-arrow::before {
+    @apply top-0;
+    border-width: 0 0.5rem 0.5rem 0.5rem;
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+  }
+
+  .bs-popover-bottom > .popover-arrow::after {
+    top: 1px;
+    border-width: 0 0.5rem 0.5rem 0.5rem;
+    border-bottom-color: #fff;
+  }
+
+  .bs-popover-bottom .popover-header::before {
+    content: "";
+    left: 50%;
+    @apply absolute top-0 block w-4 -ml-2 border-b border-black border-opacity-25;
+  }
+
+
+  .bs-popover-left {
+    @apply mr-2;
+  }
+
+  .bs-popover-left > .popover-arrow {
+    margin: 0.3rem 0;
+    right: calc(-0.5rem - 1px);
+    @apply w-2 h-4;
+  }
+
+  .bs-popover-left > .popover-arrow::before {
+    @apply right-0;
+    border-width: 0.5rem 0 0.5rem 0.5rem;
+    border-left-color: rgba(0, 0, 0, 0.25);
+  }
+
+  .bs-popover-left > .popover-arrow::after {
+    right: 1px;
+    border-width: 0.5rem 0 0.5rem 0.5rem;
+    border-left-color: #fff;
+  }
+
+  .bs-popover-auto[x-placement^="top"] {
+    @apply bs-popover-top;
+  }
+
+  .bs-popover-auto[x-placement^="right"] {
+    @apply bs-popover-right;
+  }
+
+  .bs-popover-auto[x-placement^="bottom"] {
+    @apply bs-popover-bottom;
+  }
+
+  .bs-popover-auto[x-placement^="left"] {
+    @apply bs-popover-left;
+  }
+}
