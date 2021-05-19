@@ -25,14 +25,14 @@
 
 
   /**
-  *================================================================================
-  * Variations
-  *================================================================================
-  */
+   *================================================================================
+   * Variations
+   *================================================================================
+   */
 
   /**
-  * Flush
-  */
+   * Flush
+   */
 
   .list-group-flush > .list-group-item {
     @apply border-0 rounded-none;
@@ -44,8 +44,8 @@
 
 
   /**
-  * Borderless
-  */
+   * Borderless
+   */
 
   .list-group-borderless > .list-group-item {
     @apply border-0 rounded-none;
@@ -53,8 +53,8 @@
 
 
   /**
-  * Hover
-  */
+   * Hover
+   */
 
   .list-group-hover > .list-group-item:hover {
     @apply bg-gray-50;

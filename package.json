@@ -2,7 +2,7 @@
   "name": "@rescheme/reschemify",
   "displayName": "Reschemify",
   "description": "Rescheme's Tailwind Components",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "author": "Rescheme Team",
   "eslintConfig": {
     "extends": "react-app"

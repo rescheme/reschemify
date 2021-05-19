@@ -1,0 +1,68 @@
+@layer components {
+  .dropdown,
+  .dropleft,
+  .dropright,
+  .dropup {
+    @apply relative;
+  }
+
+  .dropdown-menu {
+    /* background-clip: padding-box; */
+    @apply absolute z-1000 hidden min-w-40 px-0 py-2 m-0 text-left list-none bg-white border border-black border-opacity-25 rounded;
+  }
+
+  .dropdown-menu[data-bs-popper] {
+    @apply top-full left-0 mt-0.5;
+  }
+
+  @responsive {
+    .dropdown-menu-start {
+      --bs-position: start;
+    }
+
+    .dropdown-menu-start[data-bs-popper] {
+      @apply right-auto left-0;
+    }
+
+    .dropdown-menu-end {
+      --bs-position: end;
+    }
+
+    .dropdown-menu-end[data-bs-popper] {
+      @apply right-0 left-auto;
+    }
+  }
+
+  .dropup .dropdown-menu[data-bs-popper] {
+    @apply top-auto bottom-full mt-0 mb-0.5;
+  }
+
+  .dropend .dropdown-menu[data-bs-popper] {
+    @apply top-0 right-auto left-full mt-0 ml-0.5;
+  }
+
+  .dropstart .dropdown-menu[data-bs-popper] {
+    @apply top-0 right-full left-auto mt-0 mr-0.5;
+  }
+
+  .dropdown-menu.show {
+    @apply block;
+  }
+
+  /**
+   * Dropdown item
+   */
+  .dropdown-item {
+    @apply block py-1 px-4;
+  }
+
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    @apply bg-gray-100;
+  }
+
+  .dropdown-item.active,
+  .dropdown-item:active {
+    @apply text-white bg-blue;
+  }
+}

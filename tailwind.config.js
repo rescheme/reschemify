@@ -2,18 +2,18 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   // prefix: 'rsx-',
-  // mode: 'jit',
-  purge: [
-    './.storybook/**/*.{html,js,jsx,ts,tsx,vue}'
-  ],
+  mode: 'jit',
+  purge: {
+    content: ['./.storybook/**/*.{html,js,jsx,ts,tsx,vue,txt}'],
+    // layers: ['components', 'utilities'],
+    // options: {
+    //   safelist: ['bs-popover-top', 'modal-open', 'modal-scrollbar-measure'],
+    // }
+  },
   darkMode: false, // or 'media' or 'class'
-  important: true,
-  theme: {
-    //
-  },
-  variants: {
-    //
-  },
+  // important: true,
+  theme: {},
+  variants: {},
   plugins: [
     require('./plugins/tailwind.bs')
     // plugin(function({ addUtilities, addComponents, e, prefix, config }) {

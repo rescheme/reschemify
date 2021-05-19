@@ -1,0 +1,108 @@
+@layer components {
+  .tooltip {
+    @apply absolute z-1070 block m-0 break-words opacity-0 text-sm;
+  }
+
+  .tooltip.show {
+    @apply opacity-90;
+  }
+
+  .tooltip .tooltip-arrow {
+    height: .4rem;
+    width: .8rem;
+    @apply absolute block h-2;
+  }
+
+  .tooltip .tooltip-arrow::before {
+    content: '';
+    @apply absolute border-transparent border-solid;
+  }
+
+  .tooltip-inner {
+    @apply text-center bg-black text-white rounded max-w-sm py-1 px-2;
+  }
+
+  .bs-tooltip-top {
+    @apply px-0;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+  }
+
+  .bs-tooltip-top .tooltip-arrow {
+    @apply bottom-0;
+  }
+
+  .bs-tooltip-top .tooltip-arrow::before {
+    @apply top-0;
+    border-width: 0.4rem 0.4rem 0;
+    border-top-color: #000000;
+  }
+
+  .bs-tooltip-right {
+    @apply py-0;
+    padding-left: .4rem;
+    padding-right: .4rem;
+  }
+
+  .bs-tooltip-right .tooltip-arrow {
+    @apply left-0;
+    width: .4rem;
+    height: .8rem;
+  }
+
+  .bs-tooltip-right .tooltip-arrow::before {
+    @apply right-0;
+    border-width: .4rem .4rem .4rem 0;
+    border-right-color: #000000;
+  }
+
+  .bs-tooltip-bottom {
+    @apply px-0;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+  }
+
+  .bs-tooltip-bottom .tooltip-arrow {
+    @apply top-0;
+  }
+
+  .bs-tooltip-bottom .tooltip-arrow::before {
+    @apply bottom-0;
+    border-width: 0 .4rem .4rem;
+    border-bottom-color: #000000;
+  }
+
+  .bs-tooltip-left {
+    @apply py-0;
+    padding-left: .4rem;
+    padding-right: .4rem;
+  }
+
+  .bs-tooltip-left .tooltip-arrow {
+    @apply right-0;
+    width: .4rem;
+    height: .8rem;
+  }
+
+  .bs-tooltip-left .tooltip-arrow::before {
+    @apply left-0;
+    border-width: .4rem 0 .4rem .4rem;
+    border-left-color: #000000;
+  }
+
+  .bs-tooltip-auto[x-placement^="top"] {
+    @apply bs-tooltip-top;
+  }
+
+  .bs-tooltip-auto[x-placement^="right"] {
+    @apply bs-tooltip-right;
+  }
+
+  .bs-tooltip-auto[x-placement^="bottom"] {
+    @apply bs-tooltip-bottom;
+  }
+
+  .bs-tooltip-auto[x-placement^="left"] {
+    @apply bs-tooltip-left;
+  }
+}
